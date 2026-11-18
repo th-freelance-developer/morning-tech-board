@@ -36,11 +36,20 @@ def main():
         for src in sources:
             st = {"category": cat, "name": src["name"], "url": src["url"]}
             try:
-                d = feedparser.parse(src["url"], agent=UA)
-                code = d.get("status")
-                st["http"] = code
-                if d.bozo and not d.entries:
-                    raise RuntimeError(str(d.get("bozo_exception", "parse error"))[:200])
+                d, used, errs = None, None, []
+                # try main URL twice (flaky hosts), then fallbacks once each
+                for u in [src["url"], src["url"]] + src.get("fallbacks", []):
+                    cand = feedparser.parse(u, agent=UA)
+                    if cand.entries:
+                        d, used = cand, u
+                        break
+                    errs.append(f"{cand.get('status')} {str(cand.get('bozo_exception', 'no entries'))[:80]}")
+                    time.sleep(2)
+                if d is None:
+                    raise RuntimeError(" | ".join(errs)[:300])
+                st["http"] = d.get("status")
+                if used != src["url"]:
+                    st["used_url"] = used
                 kept = undated = 0
                 for e in d.entries:
                     t = entry_time(e)
