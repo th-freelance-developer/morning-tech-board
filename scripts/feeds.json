@@ -1,0 +1,29 @@
+{
+  "ai": [
+    {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/"},
+    {"name": "Hacker News (AI, 100+ pts)", "url": "https://hnrss.org/newest?q=LLM+OR+AI+OR+agent&points=100"}
+  ],
+  "iot": [
+    {"name": "CNX Software", "url": "https://www.cnx-software.com/feed/"},
+    {"name": "IoT World Today", "url": "https://www.iotworldtoday.com/rss.xml"}
+  ],
+  "mgmt": [
+    {"name": "LeadDev", "url": "https://leaddev.com/feed"},
+    {"name": "The Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed"},
+    {"name": "InfoQ Culture & Methods", "url": "https://feed.infoq.com/culture-methods/"}
+  ],
+  "swe": [
+    {"name": "InfoQ Development", "url": "https://feed.infoq.com/development/"},
+    {"name": "Changelog News", "url": "https://changelog.com/news/feed"}
+  ],
+  "devops": [
+    {"name": "InfoQ DevOps", "url": "https://feed.infoq.com/Devops/"},
+    {"name": "The New Stack", "url": "https://thenewstack.io/feed/"}
+  ],
+  "infra": [
+    {"name": "SiliconANGLE", "url": "https://siliconangle.com/feed/"},
+    {"name": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/rss/"},
+    {"name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/"},
+    {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/"}
+  ]
+}
