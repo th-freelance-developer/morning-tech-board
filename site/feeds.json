@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T02:31:51+00:00",
+ "generated_utc": "2026-11-18T23:19:42+00:00",
  "window_hours": 48,
  "status": [
   {
@@ -9,7 +9,7 @@
    "http": 200,
    "ok": true,
    "total": 30,
-   "kept": 5,
+   "kept": 7,
    "undated": 0
   },
   {
@@ -17,9 +17,10 @@
    "name": "Hacker News (AI, 100+ pts)",
    "url": "https://hnrss.org/newest?q=LLM+OR+AI+OR+agent&points=100",
    "http": 200,
+   "used_url": "https://hnrss.org/newest?q=AI&points=100",
    "ok": true,
    "total": 20,
-   "kept": 2,
+   "kept": 6,
    "undated": 0
   },
   {
@@ -39,7 +40,7 @@
    "http": 200,
    "ok": true,
    "total": 10,
-   "kept": 0,
+   "kept": 1,
    "undated": 0
   },
   {
@@ -49,22 +50,8 @@
    "http": 200,
    "ok": true,
    "total": 25,
-   "kept": 0,
+   "kept": 3,
    "undated": 0
-  },
-  {
-   "category": "iot",
-   "name": "IoT Tech News",
-   "url": "https://www.iottechnews.com/feed/",
-   "ok": false,
-   "error": "301 <unknown>:2:0: syntax error | 301 <unknown>:2:0: syntax error"
-  },
-  {
-   "category": "iot",
-   "name": "IoT For All",
-   "url": "https://www.iotforall.com/feed",
-   "ok": false,
-   "error": "404 text/html; charset=utf-8 is not an XML media type | 404 text/html; charset=utf-8 is not an XML media type"
   },
   {
    "category": "iot",
@@ -73,7 +60,7 @@
    "http": 200,
    "ok": true,
    "total": 25,
-   "kept": 2,
+   "kept": 3,
    "undated": 0
   },
   {
@@ -83,7 +70,7 @@
    "http": 200,
    "ok": true,
    "total": 10,
-   "kept": 1,
+   "kept": 2,
    "undated": 0
   },
   {
@@ -103,7 +90,7 @@
    "http": 200,
    "ok": true,
    "total": 10,
-   "kept": 4,
+   "kept": 3,
    "undated": 0
   },
   {
@@ -133,7 +120,7 @@
    "http": 200,
    "ok": true,
    "total": 15,
-   "kept": 10,
+   "kept": 7,
    "undated": 0
   },
   {
@@ -153,7 +140,7 @@
    "http": 200,
    "ok": true,
    "total": 15,
-   "kept": 4,
+   "kept": 5,
    "undated": 0
   },
   {
@@ -163,7 +150,7 @@
    "http": 200,
    "ok": true,
    "total": 26,
-   "kept": 10,
+   "kept": 16,
    "undated": 0
   },
   {
@@ -193,7 +180,7 @@
    "http": 200,
    "ok": true,
    "total": 20,
-   "kept": 1,
+   "kept": 3,
    "undated": 0
   },
   {
@@ -208,6 +195,734 @@
   }
  ],
  "items": [
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+   "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+   "published_utc": "2026-11-18T23:08+00:00",
+   "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Palo Alto Networks bets $4.5B on AI startup Applied Compute as earnings top forecasts",
+   "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/",
+   "published_utc": "2026-11-18T22:13+00:00",
+   "summary": "<p>Cybersecurity company Palo Alto Networks Inc. today announced that it has agreed to acquire artificial intelligence model training and inference startup Applied Compute Inc. in an all-stock deal valued at $4.5 billion. The news came alongside fiscal first-quarter earnings and revenue that were well ahead of Wall Street expectations. Shares of Palo Alto Networks rose more [&#8230;]</p>\n<p>The po"
+  },
+  {
+   "category": "infra",
+   "source": "Cloudflare Blog",
+   "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+   "url": "https://blog.cloudflare.com/open-clairic/",
+   "published_utc": "2026-11-18T22:00+00:00",
+   "summary": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt.\nClairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models."
+  },
+  {
+   "category": "iot",
+   "source": "Embedded.com",
+   "title": "Silicon Motion Unveils Enterprise Storage Platforms for Agentic AI",
+   "url": "https://www.embedded.com/silicon-motion-unveils-enterprise-storage-platforms-for-agentic-ai/",
+   "published_utc": "2026-11-18T21:54+00:00",
+   "summary": "<p>Silicon Motion is showcasing its latest enterprise storage technologies at Supercomputing 2026 (SC26), taking place November 16-19 in Chicago, Illinois. At booth #6816, the company is demonstrating its PCIe Gen5 and Gen6 MonTitan enterprise SSD controllers and reference platforms, designed to meet the storage needs of AI factories, agentic AI, and large-scale inference systems. The [...]</p>\n<p"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Recent spate of outages attributed to technical issues amid accelerated AI bug discovery",
+   "url": "https://siliconangle.com/2026/11/18/recent-spate-of-outages-attributed-to-technical-issues-amid-accelerated-ai-bug-discovery/",
+   "published_utc": "2026-11-18T21:38+00:00",
+   "summary": "<p>U.S. authorities don’t believe that the recent outages at federal agencies and top tech firms were caused by cyberattacks. The Federal Aviation Administration, United Airlines, Apple Inc. and Microsoft Corp. were among the affected organizations. All four said that their systems were disrupted by technical issues rather than hackers. Experts noted that artificial intelligence models’ [&#8230;]<"
+  },
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "published_utc": "2026-11-18T20:49+00:00",
+   "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]"
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "Microsoft says Bing serves 1B people. Its next search engine isn’t for them.",
+   "url": "https://thenewstack.io/microsoft-web-iq-agents/",
+   "published_utc": "2026-11-18T20:38+00:00",
+   "summary": "<img alt=\"Microsoft logo on the keynote stage at Ignite 2026.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"768\" src=\"https://cdn.thenewstack.io/media/2026/11/110a2c7f-microsoft-logo-ignite-26-1024x768.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Microsoft says its Bing search engine now has one billion monthly users. The company says "
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "“The best escape room players that you’ve ever met”: What Red Hat’s AI architect really thinks about agents.",
+   "url": "https://thenewstack.io/openshell-ai-agent-security/",
+   "published_utc": "2026-11-18T20:25+00:00",
+   "summary": "<img alt=\"Emergency exit sign bolted to a stone wall between dark bars, evoking AI agents trying to escape a sandbox\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"683\" src=\"https://cdn.thenewstack.io/media/2026/11/e66150e7-se-tsuchiya-1esex83dsus-unsplash-1024x683.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Last week at KubeCon + Clou"
+  },
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+   "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+   "published_utc": "2026-11-18T19:39+00:00",
+   "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Three insights you may have missed from theCUBE’s coverage of monday.com’s Elevate event",
+   "url": "https://siliconangle.com/2026/11/18/three-insights-you-may-have-missed-from-thecubes-coverage-of-monday-coms-elevate-event-mondayelevate/",
+   "published_utc": "2026-11-18T19:19+00:00",
+   "summary": "<p>AI workflow automation is changing how businesses build applications and manage everyday work, raising questions about the role of established software platforms. As organizations experiment with AI-generated applications and autonomous agents, they must also determine how to maintain access controls, integrate existing systems and manage increasingly complex workflows. The growing accessibilit"
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "Qwen4-Max vs. Claude Opus 5.5: The cheaper model costs you somewhere else.",
+   "url": "https://thenewstack.io/qwen4-max-vs-claude-opus-5-5/",
+   "published_utc": "2026-11-18T19:10+00:00",
+   "summary": "<img alt=\"Aerial illustration of a person lying in a maze of colorful rectangles, evoking an AI agent working through complex tasks\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"761\" src=\"https://cdn.thenewstack.io/media/2026/11/2b7d750d-martin-sanchez-7zysqurp1dg-unsplash-1024x761.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Qwen4-Max"
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "OpenAI spent $1.2 million finding nearly 1,000 Linux security flaws. Sam Altman says this is just the beginning.",
+   "url": "https://thenewstack.io/openai-entire-ai-stack/",
+   "published_utc": "2026-11-18T18:17+00:00",
+   "summary": "<img alt=\"Sam Altman, OpenAI CEO\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"585\" src=\"https://cdn.thenewstack.io/media/2026/03/f7a6563d-screenshot-2026-03-04-at-14.29.48-1024x585.png\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>OpenAI spent approximately $1.2 million in API costs to generate working exploits for 948 Linux kernel vulnera"
+  },
+  {
+   "category": "iot",
+   "source": "Embedded.com",
+   "title": "SolidRun Unveils i.MX 95 Ecosystem for Industrial Edge AI",
+   "url": "https://www.embedded.com/solidrun-unveils-i-mx-95-ecosystem-for-industrial-edge-ai/",
+   "published_utc": "2026-11-18T18:15+00:00",
+   "summary": "<p>SolidRun Ltd. has introduced its NXP i.MX 95 product family, combining a system-on-module (SOM), the HummingBoard i.MX 95 IIoT industrial carrier, software support, and a camera integration ecosystem. Announced at electronica 2026, SolidRun demonstrated the integration between NXP-based edge nodes and SolidRun's Nvidia-based AI systems using Nvidia Holoscan. Designed for Industry 4.0, robotics,"
+  },
+  {
+   "category": "mgmt",
+   "source": "The Pragmatic Engineer",
+   "title": "Software factories and code reviews with Harjot Gill",
+   "url": "https://newsletter.pragmaticengineer.com/p/software-factories-and-code-reviews",
+   "published_utc": "2026-11-18T18:08+00:00",
+   "summary": "CodeRabbit CEO Harjot Gill explains how he shipped over 5,000 pull requests in a month, why he believes human code review is dead, and what he gets from spending $250,000 a month on AI."
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "AI needs fresh data. Vector indexing is getting in the way",
+   "url": "https://thenewstack.io/gpu-accelerated-vector-indexing/",
+   "published_utc": "2026-11-18T17:11+00:00",
+   "summary": "<img alt=\"Red, yellow, and white light trails curving across dark asphalt, evoking fast data flow for AI vector indexing\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"724\" src=\"https://cdn.thenewstack.io/media/2026/11/547a9599-getty-images-fhmm1whwhda-unsplash-1024x724.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>It&#8217;s not a revel"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "AI’s GPU focus meets a CPU reality check at Dell and AMD",
+   "url": "https://siliconangle.com/2026/11/18/business-development-agentic-ai-era-puts-cpus-first-dellatsc26/",
+   "published_utc": "2026-11-18T17:06+00:00",
+   "summary": "<p>Agentic AI is rewriting the business development playbook for chipmakers and server builders. Graphics processing units still grab the headlines, but as supercomputing and AI converge, the next wave of demand is landing on central processing units that must fit within data centers&#8217; existing power budgets. The shift has been building for years. Customers that [&#8230;]</p>\n<p>The post <a h"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "AI factories push liquid cooling beyond CPUs and GPUs to nearly every rack component",
+   "url": "https://siliconangle.com/2026/11/18/liquid-cooling-supply-chain-rewards-building-past-forecasts-sc26/",
+   "published_utc": "2026-11-18T17:02+00:00",
+   "summary": "<p>The liquid cooling supply chain is under mounting pressure as AI factories pack more heat into every rack. To meet demand, operators have invested heavily in denser racks and liquid cooling, as well as the hoses and couplings that move the fluid must arrive faster and in larger volumes than ever. But for component makers, [&#8230;]</p>\n<p>The post <a href=\"https://siliconangle.com/2026/11/18/li"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "How Internet Exchanges stood up to the pressure of the Grand Theft Auto VI launch",
+   "url": "https://www.datacenterdynamics.com/en/analysis/gta-vi-grand-theft-auto-download-internet-exchanges/",
+   "published_utc": "2026-11-18T17:00+00:00",
+   "summary": "<p>DE-CIX's CEO says his company was prepared for gaming's biggest event</p>"
+  },
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+   "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+   "published_utc": "2026-11-18T16:58+00:00",
+   "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Agents want the crown jewels: HPE and Daxa push governance down to the data layer",
+   "url": "https://siliconangle.com/2026/11/18/semantic-caching-helps-enforce-ai-agent-governance-inline-sc26/",
+   "published_utc": "2026-11-18T16:56+00:00",
+   "summary": "<p>Enterprises are handing AI agents their most sensitive data, and governance is struggling to keep pace. Techniques such as semantic caching are emerging as a way to enforce controls inline without slowing agents down. Moving agents from pilot to production means letting them read, change and even delete the records that matter most. That shift [&#8230;]</p>\n<p>The post <a href=\"https://silicona"
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "How Orkes ParticleDB turns an impressive demo into a remarkable application",
+   "url": "https://thenewstack.io/orkes-particledb-agentic-database/",
+   "published_utc": "2026-11-18T16:54+00:00",
+   "summary": "<img alt=\"At AGNTCon + MCPCon in San Jose, Jeu George, Co-Founder and CEO of Orkes, joins The New Stack’s Nick Lucchesi to discuss the challenges of building mission-critical agentic applications and the infrastructure needed to support them.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"576\" src=\"https://cdn.thenewstack.io/media/2026/11/ac20e04a-for-thumbnail-27-1024x576"
+  },
+  {
+   "category": "ai",
+   "source": "Hacker News (AI, 100+ pts)",
+   "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+   "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+   "published_utc": "2026-11-18T16:41+00:00",
+   "summary": "<p>Article URL: <a href=\"https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO\">https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-An"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Navigating CEQA: what data center developers need to know before investing in California",
+   "url": "https://www.datacenterdynamics.com/en/opinions/navigating-ceqa-what-data-center-developers-need-to-know-before-investing-in-california/",
+   "published_utc": "2026-11-18T16:24+00:00",
+   "summary": "<p>For data center developers, CEQA deserves particular attention</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "VodafoneThree pairs with Nokia, Nvidia to trial AI-RAN in UK",
+   "url": "https://www.datacenterdynamics.com/en/news/vodafonethree-pairs-with-nokia-nvidia-to-trial-ai-ran-in-uk/",
+   "published_utc": "2026-11-18T16:22+00:00",
+   "summary": "<p>The trials have been carried out over VodafoneThree's UK network</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "FAA grounds HPE Juniper routers after outage halted US flights",
+   "url": "https://www.datacenterdynamics.com/en/news/faa-grounds-hpe-juniper-routers-after-outage-halted-us-flights/",
+   "published_utc": "2026-11-18T16:16+00:00",
+   "summary": "<p>Network modernization paused following Democrat calls</p>"
+  },
+  {
+   "category": "iot",
+   "source": "IoT Analytics",
+   "title": "As AI accelerates the $20B smart maintenance market, who will close the loop from alert to repair?",
+   "url": "https://iot-analytics.com/as-ai-accelerates-the-20b-smart-maintenance-market-who-will-close-the-loop-from-alert-to-repair/",
+   "published_utc": "2026-11-18T16:14+00:00",
+   "summary": "<div><img alt=\"\" class=\"attachment-medium size-medium wp-post-image\" height=\"300\" src=\"https://iot-analytics.com/wp-content/uploads/2026/11/the-maintenance-loop-and-how-4-key-vendors-are-closing-it-600-300x300.png\" style=\"margin-bottom: 15px;\" width=\"300\" /></div>\n<p>In short Why it matters &#8220;Closing the loop&#8221; has become a top theme in smart maintenance discussions. Over the past year, "
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "VodafoneThree joins Nokia/Nvidia test squad as carriers kick tires on AI-RAN",
+   "url": "https://rcrwireless.com/20261118/network-infrastructure/vodafonethree-joins-nokia-nvidia-test-squad-as-carriers-kick-tires-on-ai-ran",
+   "published_utc": "2026-11-18T16:06+00:00",
+   "summary": "VodafoneThree will test Nokia and Nvidia’s AI-RAN platform, initially in the lab before field trials, to assess radio performance gains and whether GPU-powered infrastructure can support network slicing and third-party&#8230;"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "IQM and Turkey's TÜBİTAK sign deal for 54-qubit quantum computer",
+   "url": "https://www.datacenterdynamics.com/en/news/iqm-and-turkeys-t%C3%BCbitak-sign-deal-for-54-qubit-quantum-computer/",
+   "published_utc": "2026-11-18T16:02+00:00",
+   "summary": "<p>System is slated to be integrated in 2027</p>"
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "200 OK is dead as an AI agent health signal. Here’s what comes next.",
+   "url": "https://thenewstack.io/silent-ai-agent-failures/",
+   "published_utc": "2026-11-18T16:00+00:00",
+   "summary": "<img alt=\"Turbulent dark blue water ripples in deep shadow, illustrating silent AI agent observability failures.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"683\" src=\"https://cdn.thenewstack.io/media/2026/11/204969d5-francesco-ungaro-i_rqjwkbjds-unsplash-1024x683.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>A customer asks whether th"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Unsiloed nabs $7.5M to turn scanned documents into structured data for AI agents",
+   "url": "https://siliconangle.com/2026/11/18/unsiloed-nabs-7-5m-to-turn-scanned-documents-into-structured-data-for-ai-agents/",
+   "published_utc": "2026-11-18T16:00+00:00",
+   "summary": "<p>Document-scanning firm Unsiloed Inc. today announced it has raised $7.5 million in seed funding to turn PDFs and other complex documents into structured, readable data for artificial intelligence agents. Participants in the round, led by Felicis, included Y Combinator, Orange Collective, Uncorrelated Ventures, Aarthi Ramamurthy and Beth Turner. A variety of documents arrive in formats [&#8230;]"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Argentum AI and Kyndryl ink $630m AI infrastructure deal",
+   "url": "https://www.datacenterdynamics.com/en/news/argentum-ai-and-kyndryl-ink-630m-ai-infrastructure-deal/",
+   "published_utc": "2026-11-18T16:00+00:00",
+   "summary": "<p>Will deploy B300s at Kyndryl's data center in Boulder, Colorado</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Sponsored: Beyond cooling: Why heat and noise matter in sustainable AI data center design",
+   "url": "https://www.datacenterdynamics.com/en/opinions/beyond-cooling-why-heat-and-noise-matter-in-sustainable-ai-data-center-design/",
+   "published_utc": "2026-11-18T16:00+00:00",
+   "summary": "<p>As AI workloads drive higher computing densities, the challenge extends beyond cooling servers efficiently</p>"
+  },
+  {
+   "category": "ai",
+   "source": "Simon Willison",
+   "title": "Quoting Daniel Stenberg",
+   "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+   "published_utc": "2026-11-18T15:58+00:00",
+   "summary": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust r"
+  },
+  {
+   "category": "ai",
+   "source": "Hacker News (AI, 100+ pts)",
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+   "published_utc": "2026-11-18T15:49+00:00",
+   "summary": "<p>Article URL: <a href=\"https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/\">https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50547777\">https://news.ycombinator.com/item?id=50547777</a></p>\n<p>Points: 301</p>\n<p># Comments: 136</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Elementl Power partners with Google Cloud on AI suite to speed up nuclear siting and licensing",
+   "url": "https://www.datacenterdynamics.com/en/news/elementl-power-partners-with-google-cloud-on-ai-suite-to-speed-up-nuclear-siting-and-licensing/",
+   "published_utc": "2026-11-18T15:46+00:00",
+   "summary": "<p>Builds on existing partnership with Google</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "OpenAI hires clean energy lead",
+   "url": "https://www.datacenterdynamics.com/en/news/openai-hires-clean-energy-lead/",
+   "published_utc": "2026-11-18T15:40+00:00",
+   "summary": "<p>Nate Sweet joins the team</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Cleanview: US data center construction slows in Q3 2026 following record-breaking Q2",
+   "url": "https://www.datacenterdynamics.com/en/news/cleanview-us-data-center-construction-slows-in-q3-2026-following-record-breaking-q2/",
+   "published_utc": "2026-11-18T15:40+00:00",
+   "summary": "<p>But analysis from October implies Q4 will be another record quarter</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Orange seeks partners to extend ReuNION subsea cable to Singapore",
+   "url": "https://www.datacenterdynamics.com/en/news/orange-seeks-partners-to-extend-reunion-subsea-cable-to-singapore/",
+   "published_utc": "2026-11-18T15:29+00:00",
+   "summary": "<p>Telco says system could land at a number of points along the way</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Cameron County commissioners reject SpaceX tax break request for $24bn Texas data center",
+   "url": "https://www.datacenterdynamics.com/en/news/cameron-county-commissioners-reject-spacex-tax-break-request-for-24bn-texas-data-center/",
+   "published_utc": "2026-11-18T15:25+00:00",
+   "summary": "<p>Commissioners voted against holding another meeting</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "DC Blox files for third building at Atlanta West data center campus",
+   "url": "https://www.datacenterdynamics.com/en/news/dc-blox-files-for-third-building-at-atlanta-west-data-center-campus/",
+   "published_utc": "2026-11-18T15:13+00:00",
+   "summary": "<p>Company set to complete 80MW building in 2029</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "CoolIT & Ecolab launch 3MW CDU",
+   "url": "https://www.datacenterdynamics.com/en/news/coolit-ecolab-launch-3mw-cdu/",
+   "published_utc": "2026-11-18T15:12+00:00",
+   "summary": "<p>New unit includes Ecolab's water monitoring tech</p>"
+  },
+  {
+   "category": "iot",
+   "source": "IoT Business News",
+   "title": "Connected Two-Wheeler Telematics Market Set to Exceed 85 Million Systems by 2030",
+   "url": "https://iotbusinessnews.com/2026/11/18/connected-two-wheeler-telematics-market-set-to-exceed-85-million-systems-by-2030/",
+   "published_utc": "2026-11-18T15:07+00:00",
+   "summary": "<p><img alt=\"Connected Two-Wheeler Telematics Market Set to Exceed 85 Million Systems by 2030\" class=\"attachment-medium size-medium wp-post-image\" height=\"360\" src=\"https://iotbusinessnews.com/WordPress/wp-content/uploads/rgnt-motorcycle.jpg\" width=\"800\" /></p>\n<p>The global connected two-wheeler telematics market is expected to exceed 85 million active systems by 2030, with factory-installed solu"
+  },
+  {
+   "category": "swe",
+   "source": "InfoQ Development",
+   "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+   "url": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
+   "published_utc": "2026-11-18T15:05+00:00",
+   "summary": "<img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\" /><p>LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs by 10%, improved application runtimes by 14%, and reduced shuffle costs per task by nearly 90% throug"
+  },
+  {
+   "category": "devops",
+   "source": "InfoQ DevOps",
+   "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+   "url": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
+   "published_utc": "2026-11-18T15:05+00:00",
+   "summary": "<img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\" /><p>LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs by 10%, improved application runtimes by 14%, and reduced shuffle costs per task by nearly 90% throug"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Texas environmental regulator resumes data center permitting following ERCOT review",
+   "url": "https://www.datacenterdynamics.com/en/news/texas-environmental-regulator-resumes-data-center-permitting-following-ercot-review/",
+   "published_utc": "2026-11-18T15:03+00:00",
+   "summary": "<p>Immediately issues an air permit for planned SpaceX data center</p>"
+  },
+  {
+   "category": "iot",
+   "source": "IoT Business News",
+   "title": "Verizon and Bosch Motorsport Expand IoT Connectivity for Global Race Telemetry",
+   "url": "https://iotbusinessnews.com/2026/11/18/verizon-and-bosch-motorsport-expand-iot-connectivity-for-global-race-telemetry/",
+   "published_utc": "2026-11-18T15:00+00:00",
+   "summary": "<p><img alt=\"Verizon and Bosch Motorsport Expand IoT Connectivity for Global Race Telemetry\" class=\"attachment-medium size-medium wp-post-image\" height=\"360\" src=\"https://iotbusinessnews.com/WordPress/wp-content/uploads/2026/11/race-cars-track-telemetry.jpg\" width=\"800\" /></p>\n<p>Verizon Business and Bosch Motorsport are expanding their collaboration to support real-time race telemetry and regulat"
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "S3 vs. ScyllaDB for tiny telemetry: What Red Canary learned the hard way",
+   "url": "https://thenewstack.io/scylladb-s3-tiny-telemetry/",
+   "published_utc": "2026-11-18T15:00+00:00",
+   "summary": "<img alt=\"Swirling dark metallic liquid with chromatic digital distortion symbolizing large-scale database telemetry storage.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"576\" src=\"https://cdn.thenewstack.io/media/2026/11/fde1f101-nigel-hoare-uqc-3ozftuk-unsplash-1024x576.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>At Red Canary, sto"
+  },
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+   "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+   "published_utc": "2026-11-18T15:00+00:00",
+   "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how stronger identity verification can help organizations prevent social engineering threats. [...]"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "AI’s hidden energy tax: More than 80% of scale-up traffic is just memory moving around",
+   "url": "https://siliconangle.com/2026/11/18/memory-bottlenecks-ai-how-photonics-shared-pools-help-sc26/",
+   "published_utc": "2026-11-18T14:57+00:00",
+   "summary": "<p>Memory bottlenecks are emerging as one of the costliest problems in AI infrastructure as inference overtakes training. GPUs sit idle waiting on data, while high-bandwidth memory, or HBM, stays bolted to processors that cannot share it. Photonics is shaping up as one way out. Marvell Technology Inc. has been pairing optics with photonic memory to [&#8230;]</p>\n<p>The post <a href=\"https://silico"
+  },
+  {
+   "category": "infra",
+   "source": "Cloudflare Blog",
+   "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+   "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
+   "published_utc": "2026-11-18T14:52+00:00",
+   "summary": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now."
+  },
+  {
+   "category": "ai",
+   "source": "Simon Willison",
+   "title": "The PSF end-of-year fundraiser",
+   "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+   "published_utc": "2026-11-18T14:44+00:00",
+   "summary": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p>\nWith my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.</p>\n<p>If your company or your work benefits from Python, please consider donating this year!</p>\n<p>The PSF looks after the IP"
+  },
+  {
+   "category": "iot",
+   "source": "IoT Insider",
+   "title": "Motorbike telematics set to more than triple by 2030",
+   "url": "https://www.iotinsider.com/industries/communications/motorbike-telematics-set-to-more-than-triple-by-2030/",
+   "published_utc": "2026-11-18T14:43+00:00",
+   "summary": "The number of motorbikes fitted with embedded telematics is forecast to more than triple over the next five years, as manufacturers increasingly turn to connectivity to deliver safety, security and connected services. The number of active OEM telematics systems installed in motorcycles, mopeds and scooters is expected to rise from 19.7 million at the end&#8230;"
+  },
+  {
+   "category": "iot",
+   "source": "IoT Business News",
+   "title": "Automotive TCU Market to Reach 94.5 Million Units by 2030, with Qualcomm Dominating Connectivity Chips",
+   "url": "https://iotbusinessnews.com/2026/11/18/automotive-tcu-market-to-reach-94-5-million-units-by-2030-with-qualcomm-dominating-connectivity-chips/",
+   "published_utc": "2026-11-18T14:30+00:00",
+   "summary": "<p><img alt=\"Automotive TCU Market to Reach 94.5 Million Units by 2030, with Qualcomm Dominating Connectivity Chips\" class=\"attachment-medium size-medium wp-post-image\" height=\"360\" src=\"https://iotbusinessnews.com/WordPress/wp-content/uploads/2024/01/Hyundai-motor-car-dashboard.jpg\" width=\"800\" /></p>\n<p>Berg Insight projects the automotive telematics market to hit 94.5 million units by 2030, dri"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Quantum computing drops its decade-away tag as error rates fall 200-fold in two years",
+   "url": "https://siliconangle.com/2026/11/18/quantum-error-correction-ushers-data-center-sc26/",
+   "published_utc": "2026-11-18T14:28+00:00",
+   "summary": "<p>Quantum computing is shedding its reputation as speculative as gains in quantum error correction turn fragile machines into reliable ones. For the supercomputing community, which now measures data centers in gigawatts of power, the more pressing question is how quantum fits beside the processors already on the floor. For years, the field faced a trade-off [&#8230;]</p>\n<p>The post <a href=\"http"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Virginia’s Loudoun County officially adopts 12-month moratorium on data center development",
+   "url": "https://www.datacenterdynamics.com/en/news/virginias-loudoun-county-officially-adopts-12-month-moratorium-on-data-center-development/",
+   "published_utc": "2026-11-18T14:04+00:00",
+   "summary": "<p>Home of Data Center Alley says no more for now</p>"
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "Why verification, not generation, is your secret to AI coding ROI",
+   "url": "https://thenewstack.io/ai-code-verification-gap/",
+   "published_utc": "2026-11-18T14:00+00:00",
+   "summary": "<img alt=\"Abstract dark 3D geometric block structure with cyan light in the gaps, symbolizing AI code verification and trust.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"576\" src=\"https://cdn.thenewstack.io/media/2026/11/972aec0e-nigel-hoare-hahmt9or6z4-unsplash-1024x576.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>For two years, the"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Reson8 releases Rumble-2-Flash speech model as a free open-weights download",
+   "url": "https://siliconangle.com/2026/11/18/reson8-releases-rumble-2-flash-speech-model-as-a-free-open-weights-download/",
+   "published_utc": "2026-11-18T14:00+00:00",
+   "summary": "<p>Amsterdam-based speech recognition startup Resonate Labs B.V. today released its Rumble-2-Flash transcription model as a free download with open weights. Designed for fast transcription of prerecorded audio, the 500 million-parameter model supports more than 40 languages. Reson8 is pitching the release at developers and researchers who need speech recognition built for languages other than Engl"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Tesorai raises $5.3M to feed starving AI models with biological data and accelerate drug discovery",
+   "url": "https://siliconangle.com/2026/11/18/tesorai-raises-5-3m-to-feed-starving-ai-models-with-biological-data-and-accelerate-drug-discovery/",
+   "published_utc": "2026-11-18T14:00+00:00",
+   "summary": "<p>Drug researchers and medical laboratories generate massive volumes of biological data every single day, yet somehow the artificial intelligence models designed to speed up drug discovery are still starved of useful information. It’s a strange paradox, but a startup called Tesorai Inc. believes it has the solution after raising $5.3 million in seed funding today. [&#8230;]</p>\n<p>The post <a hre"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "OneTrust’s Fall ’26 Release expands AI visibility, privacy and third-party risk tools",
+   "url": "https://siliconangle.com/2026/11/18/onetrusts-fall-26-release-expands-ai-visibility-privacy-and-third-party-risk-tools/",
+   "published_utc": "2026-11-18T14:00+00:00",
+   "summary": "<p>Governance platform provider OneTrust LLC today announced its Fall &#8217;26 Release, a set of platform updates said to bring governance into the workflows where business decisions are made. Building on OneTrust CORIE, a shared intelligence layer for governing artificial intelligence agents introduced at the company&#8217;s TrustWeek conference in September, the release covers AI visibility, pr"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "AI and supercomputing merge as universities build GPU clusters at cloud-provider scale",
+   "url": "https://siliconangle.com/2026/11/18/molecular-discovery-speeds-up-texas-m-supercomputing-dellatsc26/",
+   "published_utc": "2026-11-18T13:56+00:00",
+   "summary": "<p>Universities racing to build AI infrastructure are learning that raw compute changes the pace of science itself, from molecular discovery to materials engineering. AI and high-performance computing are converging, and campus technology leaders are now building like cloud operators. The Texas A&#38;M University System is standing up two major clusters for researchers across its 12 [&#8230;]</p>\n"
+  },
+  {
+   "category": "iot",
+   "source": "CNX Software",
+   "title": "Bluetooth 7.0 specification ratified with HDT (High Data Throughput) support",
+   "url": "https://www.cnx-software.com/2026/11/18/bluetooth-7-0-specification-ratified-with-hdt-high-data-throughput-support/",
+   "published_utc": "2026-11-18T13:42+00:00",
+   "summary": "<div><img alt=\"Bluetooth 7.0\" class=\"attachment-medium size-medium wp-post-image\" height=\"420\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/11/Bluetooth-7.0-720x420.jpg\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>The Bluetooth SIG ratified the Bluetooth 7.0 specification on November 3, 2026, with the highlight of the new Bluetooth Core specification being optional support fo"
+  },
+  {
+   "category": "devops",
+   "source": "The New Stack",
+   "title": "“Collaboration over competition”: Hugging Face hands model inference traffic to OpenRouter",
+   "url": "https://thenewstack.io/hugging-face-openrouter-inference/",
+   "published_utc": "2026-11-18T13:39+00:00",
+   "summary": "<img alt=\"Illustration depicting collaboration between two colorful cartoon characters assembling a shared design.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"724\" src=\"https://cdn.thenewstack.io/media/2026/11/ba6a4f2b-aditya-sahu-lfqxdzlp-gm-unsplash-1024x724.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Hugging Face and OpenRouter h"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "FingerMotion unveils modular data center concept designed to operate in extreme climates",
+   "url": "https://www.datacenterdynamics.com/en/news/fingermotion-unveils-modular-data-center-concept-designed-to-operate-in-extreme-climates/",
+   "published_utc": "2026-11-18T13:21+00:00",
+   "summary": "<p>Concept being developed by Canadian firm BlueFlare</p>"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "6G, AI-RAN will drive longer-term wireless recovery, says Viavi",
+   "url": "https://rcrwireless.com/20261118/6g/viavi-6g-ai-ran-wireless-recovery",
+   "published_utc": "2026-11-18T13:16+00:00",
+   "summary": "Viavi&#8217;s chief executive officer Oleg Khaykin said the company remained optimistic about the medium-term prospects for its wireless business as AI-RAN and 6G development starts to ramp up In sum&#8230;"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Starburst adds context support to give AI agents consistent access to business data definitions",
+   "url": "https://siliconangle.com/2026/11/18/starburst-adds-context-support-to-give-ai-agents-consistent-access-to-business-data-definitions/",
+   "published_utc": "2026-11-18T13:00+00:00",
+   "summary": "<p>Starburst Data Inc. is expanding its data federation platform into business context management with the introduction of Context Studio, a new capability designed to help artificial intelligence agents produce more accurate and trustworthy answers from information distributed across enterprise systems. Context Studio collects business definitions from existing data catalogs, business intelligenc"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Blue Owl data center REIT completes acquisition of first building on GCDC campus in Virginia",
+   "url": "https://www.datacenterdynamics.com/en/news/blue-owl-data-center-reit-completes-acquisition-of-first-building-on-gcdc-campus-in-virginia/",
+   "published_utc": "2026-11-18T13:00+00:00",
+   "summary": "<p>Part of a larger transaction consisting of three buildings on the campus</p>"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "TIM's Sparkle appoints Alessandro Ercolani as CEO",
+   "url": "https://www.datacenterdynamics.com/en/news/tims-sparkle-appoints-alessandro-ercolani-as-ceo/",
+   "published_utc": "2026-11-18T12:50+00:00",
+   "summary": "<p>Enrico Maria Bagnasco steps down after four years</p>"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "AI exposes Industry 4.0 connectivity gap – private 5G is already part of the answer",
+   "url": "https://rcrwireless.com/20261118/private-5g/ai-exposes-industry-4-0-connectivity-gap-private-5g-is-already-part-of-the-answer",
+   "published_utc": "2026-11-18T12:48+00:00",
+   "summary": "Industrial AI is putting networks back in the spotlight, as enterprises connect more devices and demand more from industrial systems. The size of the connectivity gap depends on how far&#8230;"
+  },
+  {
+   "category": "infra",
+   "source": "Data Center Dynamics",
+   "title": "Next Capital launches new Australian data center firm Dataspace",
+   "url": "https://www.datacenterdynamics.com/en/news/next-capital-launches-new-australian-data-center-firm-dataspace/",
+   "published_utc": "2026-11-18T12:46+00:00",
+   "summary": "<p>New company seeded with former Fujitsu-operated facilities</p>"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Humyn Labs raises $47M to bridge the gap between AI training and real-world robotics",
+   "url": "https://siliconangle.com/2026/11/18/humyn-labs-raises-47m-to-bridge-the-gap-between-ai-training-and-real-world-robotics/",
+   "published_utc": "2026-11-18T12:30+00:00",
+   "summary": "<p>Humyn Labs, a company turning human experience into training for robots and artificial intelligence, today announced it has raised $47 million in early-stage funding to accelerate intelligent robotic deployment readiness in real-world environments across Brazil, South Korea and India. Accel led the $26 million equity portion of the round, with participation from Prosus Ventures, BeeGlobal, [&#8"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Stalled data center buildouts send inference chips hunting for space in telco and colo sites",
+   "url": "https://siliconangle.com/2026/11/18/ai-data-centers-delays-push-inference-chips-existing-sites-sc26/",
+   "published_utc": "2026-11-18T12:13+00:00",
+   "summary": "<p>Demand for inference is outrunning the construction of new AI data centers, as power, capital and permitting delays push fresh capacity further out. That gap is sending chipmakers to hunt for room in existing facilities. Many older telco and colocation sites have the space and power. But most can&#8217;t take today&#8217;s dense, liquid-cooled GPU racks [&#8230;]</p>\n<p>The post <a href=\"https:"
+  },
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+   "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+   "published_utc": "2026-11-18T11:50+00:00",
+   "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "From store outlets to methane leaks: AI’s hunt for power",
+   "url": "https://siliconangle.com/2026/11/18/distributed-inference-turns-stranded-power-ai-compute-dellatsc26/",
+   "published_utc": "2026-11-18T11:32+00:00",
+   "summary": "<p>AI factories are outgrowing traditional data centers as models grow and distributed inference moves from concept to deployment. The infrastructure behind those models now has to span racks, sites and even scattered pockets of power. Dell Technologies Inc. is betting that the answer lies in building complete systems rather than components, from rack-scale management to [&#8230;]</p>\n<p>The post "
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Exclusive: Wherobots AI agents automate complex spatial data engineering",
+   "url": "https://siliconangle.com/2026/11/18/exclusive-wherobots-ai-agents-automate-complex-spatial-data-engineering/",
+   "published_utc": "2026-11-18T11:00+00:00",
+   "summary": "<p>Cloud-native spatial analytics and artificial intelligence startup Wherobots Inc. today introduced an artificial intelligence agent that enables users to build and deploy spatial data pipelines using natural-language instructions, reducing the need for specialized programming expertise. Called Waldo, the agent can discover data sources, generate queries, perform analysis, visualize results and "
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "Scripts can’t run AI factories: Dell moves cluster management from the server to the rack",
+   "url": "https://siliconangle.com/2026/11/18/supercomputing-needs-rack-scale-management-dell-says-dellatsc26/",
+   "published_utc": "2026-11-18T10:46+00:00",
+   "summary": "<p>As artificial intelligence clusters grow to supercomputing scale, the hard part of the AI factory is no longer buying hardware. It is keeping racks, switches, GPUs and cooling running once they are switched on. That operational burden is reshaping what infrastructure providers sell. Dell Technologies Inc. has spent the past year pushing its AI Factory [&#8230;]</p>\n<p>The post <a href=\"https://"
+  },
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "published_utc": "2026-11-18T10:35+00:00",
+   "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]"
+  },
+  {
+   "category": "iot",
+   "source": "IoT Insider",
+   "title": "Our pick: five must-watch electronica 2026 interviews for the IoT industry",
+   "url": "https://www.iotinsider.com/events/our-pick-five-must-watch-electronica-2026-interviews-for-the-iot-industry/",
+   "published_utc": "2026-11-18T10:02+00:00",
+   "summary": "From LoRa connectivity and Edge AI to Physical AI and intelligent embedded systems, exhibitors at electronica 2026 had a lot offer in terms of the technologies shaping the next generation of connected devices. The growing convergence of connectivity, artificial intelligence and embedded computing was a recurring theme at the show, as semiconductor manufacturers and technology&#8230;"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Private 5G, optical highways, satellite IoT – and a big Canadian takeover (Telco Diary)",
+   "url": "https://rcrwireless.com/20261118/network-infrastructure/private-5g-optical-highways-satellite-iot-and-a-big-canadian-takeover-telco-diary",
+   "published_utc": "2026-11-18T09:33+00:00",
+   "summary": "From the newsletter (November 17; sign-up or follow if you want it sooner): NIBs: BASF makes the case for private 5G without AI, while optical networking rides the $1tn data&#8230;"
+  },
+  {
+   "category": "swe",
+   "source": "InfoQ Development",
+   "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+   "url": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
+   "published_utc": "2026-11-18T09:29+00:00",
+   "summary": "<img src=\"https://res.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/en/headerimage/generatedHeaderImage-1794476042263.jpg\" /><p>AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and with consumer-initiated connections only. Th"
+  },
+  {
+   "category": "devops",
+   "source": "InfoQ DevOps",
+   "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+   "url": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
+   "published_utc": "2026-11-18T09:29+00:00",
+   "summary": "<img src=\"https://res.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/en/headerimage/generatedHeaderImage-1794476042263.jpg\" /><p>AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and with consumer-initiated connections only. Th"
+  },
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "Microsoft announces Windows Server 2028 with hardened security",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+   "published_utc": "2026-11-18T09:24+00:00",
+   "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "New shoots, deep cuts – are telcos back in business? (Telco Diary)",
+   "url": "https://rcrwireless.com/20261118/opinion/new-shoots-deep-cuts-are-telcos-back-in-business-telco-diary",
+   "published_utc": "2026-11-18T09:23+00:00",
+   "summary": "From the newsletter (November 12; sign-up or follow if you want it sooner): Vodafone and Telefónica have both upgraded their outlooks, reporting stronger growth, improved profitability and better cash generation.&#8230;"
+  },
+  {
+   "category": "swe",
+   "source": "InfoQ Development",
+   "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+   "url": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
+   "published_utc": "2026-11-18T09:00+00:00",
+   "summary": "<img src=\"https://res.infoq.com/news/2026/11/kubernetes-cassandra-eks/en/headerimage/generatedHeaderImage-1794921404342.jpg\" /><p>Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes.</p> <i>By Claudio Masolo</i>"
+  },
+  {
+   "category": "devops",
+   "source": "InfoQ DevOps",
+   "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+   "url": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
+   "published_utc": "2026-11-18T09:00+00:00",
+   "summary": "<img src=\"https://res.infoq.com/news/2026/11/kubernetes-cassandra-eks/en/headerimage/generatedHeaderImage-1794921404342.jpg\" /><p>Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes.</p> <i>By Claudio Masolo</i>"
+  },
+  {
+   "category": "mgmt",
+   "source": "LeadDev",
+   "title": "AI coding rules matter more than your model",
+   "url": "https://leaddev.com/software-quality/ai-coding-rules-matter-more-than-your-model?utm_source=leaddev&utm_medium=RSS",
+   "published_utc": "2026-11-18T08:40+00:00",
+   "summary": "<p>Treat your AI rules like code.</p>\n<p>The post <a href=\"https://leaddev.com/software-quality/ai-coding-rules-matter-more-than-your-model?utm_source=leaddev&#038;utm_medium=RSS\">AI coding rules matter more than your model</a> appeared first on <a href=\"https://leaddev.com\">LeadDev</a>.</p>"
+  },
+  {
+   "category": "infra",
+   "source": "BleepingComputer",
+   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+   "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "published_utc": "2026-11-18T08:24+00:00",
+   "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]"
+  },
+  {
+   "category": "iot",
+   "source": "CNX Software",
+   "title": "Web-based breadboard simulator lets you build circuits, fix errors, and monitor designs with a built-in oscilloscope",
+   "url": "https://www.cnx-software.com/2026/11/18/web-based-breadboard-simulator-lets-you-build-circuits-fix-errors-and-monitor-designs-with-a-built-in-oscilloscope/",
+   "published_utc": "2026-11-18T08:04+00:00",
+   "summary": "<div><img alt=\"de:volt breadboard simulator\" class=\"attachment-medium size-medium wp-post-image\" height=\"412\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/11/De-volt-breadboard-simulator-720x412.png\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>Dev Kapadia&#8217;s de:volt is a breadboard simulator that runs in your browser. You can place parts and wires on a breadboard, and th"
+  },
+  {
+   "category": "ai",
+   "source": "Hacker News (AI, 100+ pts)",
+   "title": "AI is killing All About Berlin",
+   "url": "https://nicolasbouliane.com/blog/death-by-ai",
+   "published_utc": "2026-11-18T06:47+00:00",
+   "summary": "<p>Article URL: <a href=\"https://nicolasbouliane.com/blog/death-by-ai\">https://nicolasbouliane.com/blog/death-by-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50542705\">https://news.ycombinator.com/item?id=50542705</a></p>\n<p>Points: 746</p>\n<p># Comments: 678</p>"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "CloudBackend grabs €6.6M to turn AI-generated prototypes into productive business applications",
+   "url": "https://siliconangle.com/2026/11/18/cloudbackend-grabs-e6-6m-to-turn-ai-generated-prototypes-into-productive-business-applications/",
+   "published_utc": "2026-11-18T06:00+00:00",
+   "summary": "<p>Just about anyone can knock up a working prototype application these days using artificial intelligence coding tools, but what happens when they want to turn that app into a viable business? That’s the question that Swedish AI infrastructure startup CloudBackend AB thinks it can answer after raising €6.6 million ($7.25 million) in seed funding today. Leading [&#8230;]</p>\n<p>The post <a href=\"h"
+  },
+  {
+   "category": "infra",
+   "source": "SiliconANGLE",
+   "title": "At Ignite 2026, Microsoft reinvents Copilot as the autonomous engine of enterprise work",
+   "url": "https://siliconangle.com/2026/11/18/at-ignite-2026-microsoft-reinvents-copilot-as-the-autonomous-engine-of-enterprise-work/",
+   "published_utc": "2026-11-18T05:13+00:00",
+   "summary": "<p>Business knowledge workers spend their days running a gauntlet of emails, spreadsheets, messaging platforms, meetings and productivity applications, wasting hours of their time switching from one to another to get mundane tasks done. Microsoft Corp. is now proposing an alternative: It wants Copilot to evolve from a somewhat useful generative artificial intelligence assistant into the [&#8230;]<"
+  },
+  {
+   "category": "iot",
+   "source": "CNX Software",
+   "title": "Flipper One – A Rockchip RK3576-powered portable Arm Linux computer and networking multi-tool (Crowdfunding)",
+   "url": "https://www.cnx-software.com/2026/11/18/flipper-one-a-rockchip-rk3576-powered-portable-arm-linux-computer-and-networking-multi-tool/",
+   "published_utc": "2026-11-18T03:00+00:00",
+   "summary": "<div><img alt=\"Flipper One\" class=\"attachment-medium size-medium wp-post-image\" height=\"489\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/05/Flipper-One-720x489.jpg\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>Flipper Devices has launched the Flipper One open-source hardware portable Arm Linux platform and networking/Edge AI multi-tool powered by a Rockchip RK3576 octa-core A"
+  },
   {
    "category": "infra",
    "source": "SiliconANGLE",
@@ -225,6 +940,14 @@
    "summary": "<p>Genesis AI SAS today announced that it has raised $500 million in funding from a group of prominent investors.  Premji Invest, Khosla Ventures and Eclipse led the Series A round. They were joined by the venture capital arms of Nvidia Corp., Advanced Micro Devices Inc., Zoom Communications Inc., Samsung Electronics Co. and Ericsson. Former Google [&#8230;]</p>\n<p>The post <a href=\"https://silico"
   },
   {
+   "category": "ai",
+   "source": "Hacker News (AI, 100+ pts)",
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "published_utc": "2026-11-18T00:17+00:00",
+   "summary": "<p>Article URL: <a href=\"https://revscope.co/blog/search-seo-geo-2026/\">https://revscope.co/blog/search-seo-geo-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50540178\">https://news.ycombinator.com/item?id=50540178</a></p>\n<p>Points: 683</p>\n<p># Comments: 530</p>"
+  },
+  {
    "category": "infra",
    "source": "SiliconANGLE",
    "title": "Alphabet’s Isomorphic Labs raises $5B to accelerate drug discovery with AI",
@@ -235,7 +958,7 @@
   {
    "category": "infra",
    "source": "SiliconANGLE",
-   "title": "Business as usual for Nvidia as it beats expectations in first earnings call after Jensen Huang’s resignation",
+   "title": "Business as usual for Nvidia as it beats expectations in first earnings call after Huang’s resignation",
    "url": "https://siliconangle.com/2026/11/17/business-as-usual-for-nvidia-as-it-beats-expectations-in-its-first-earnings-call-after-jensen-huangs-resignation/",
    "published_utc": "2026-11-17T23:49+00:00",
    "summary": "<p>Nvidia Corp. delivered earnings and revenue that surpassed Wall Street’s expectations and offered strong guidance for the current quarter in its first earnings call since the shocking resignation of its iconic co-founder and Chief Executive Jensen Huang. The results were so impressive that they slammed the brakes on a weeklong slide, as Nvidia’s stock rose [&#8230;]</p>\n<p>The post <a href=\"htt"
@@ -246,15 +969,7 @@
    "title": "Token sticker shock pushes enterprises from frontier labs toward open-weight AI factories",
    "url": "https://siliconangle.com/2026/11/17/gpus-alone-won-t-carry-enterprise-ai-pilots-production-dellatsc26/",
    "published_utc": "2026-11-17T23:27+00:00",
-   "summary": "<p>Enterprises have spent the AI boom racing to secure GPUs, but the harder decisions now sit above the hardware. Token bills, data sovereignty and model choice increasingly decide which AI pilots reach production, a shift on display at the SC26 supercomputing conference. Dell Technologies Inc. has spent the past year pushing its AI Factory beyond [&#8230;]</p>\n<p>The post <a href=\"https://silicon"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Nvidia doubles quarterly earnings, raises forecast, “does not intend to reinstate Jensen as CEO”",
-   "url": "https://www.datacenterdynamics.com/en/news/nvidia-doubles-quarterly-earnings-raises-forecast-does-not-intend-to-reinstate-jensen-as-ceo/",
-   "published_utc": "2026-11-17T23:26+00:00",
-   "summary": "<p>Huge earnings, but CEO drama casts a long shadow</p>"
+   "summary": "<p>Enterprises have spent the AI boom racing to secure graphics processing units, or GPUs, but the harder decisions now sit above the hardware. Token bills, data sovereignty and model choice increasingly decide which AI pilots reach production, a shift on display at the SC26 supercomputing conference. Dell Technologies Inc. has spent the past year pushing [&#8230;]</p>\n<p>The post <a href=\"https:/"
   },
   {
    "category": "infra",
@@ -321,9 +1036,17 @@
    "summary": "<p>Former Nvidia Corp. Chief Executive Officer Jensen Huang today said he’s open to returning to his old post. Huang expressed his willingness to be reinstated in a post on X. It marks his first public statement since his ouster from Nvidia last week. He resigned following revelations that he had an affair with Alice Huang, [&#8230;]</p>\n<p>The post <a href=\"https://siliconangle.com/2026/11/17/jen"
   },
   {
+   "category": "ai",
+   "source": "Hacker News (AI, 100+ pts)",
+   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+   "published_utc": "2026-11-17T21:16+00:00",
+   "summary": "<p>Article URL: <a href=\"https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/\">https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50538303\">https://news.ycombinator.com/item?id=50538303</a></p>\n<p>Points: 313</p>\n"
+  },
+  {
    "category": "swe",
    "source": "InfoQ Development",
-   "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+   "title": "How Shopify Orchestrates AI-Powered Mobile App Development without Overloading Developers' Machines",
    "url": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
    "published_utc": "2026-11-17T21:00+00:00",
    "summary": "<img src=\"https://res.infoq.com/news/2026/11/shopify-remote-ai-dev/en/headerimage/shopify-ruvy-ruby-wasm-1794947458635.jpeg\" /><p>To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in parallel.</p> <i>By "
@@ -346,35 +1069,11 @@
   },
   {
    "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Idle, then spiking: Why AI agents are breaking Kubernetes resource planning",
-   "url": "https://siliconangle.com/2026/11/17/autonomous-orchestration-helps-kubernetes-keep-up-ai-agents-kubeconna/",
-   "published_utc": "2026-11-17T20:35+00:00",
-   "summary": "<p>AI agents are changing the economics of cloud infrastructure, and autonomous orchestration is becoming the way platform teams keep up. Agentic workloads sit idle and then spike without warning. That pattern leaves static resource settings either wasteful or likely to fail. Container orchestration for AI is fast becoming the backbone of production AI, and agents [&#8230;]</p>\n<p>The post <a href"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Nvidia at SC26: Agents are the new scientists, and they need a lab",
-   "url": "https://siliconangle.com/2026/11/17/nvidia-at-sc26-agents-are-the-new-scientists-and-they-need-a-lab/",
-   "published_utc": "2026-11-17T20:27+00:00",
-   "summary": "<p>For most of its history, the high-performance computing market measured progress the same way: how fast a machine could solve a fixed problem. Rankings rose, a new system took the top spot, and the cycle started over. Raw performance remains the foundation of scientific computing, and Nvidia Corp. brought plenty of it to SC26. But [&#8230;]</p>\n<p>The post <a href=\"https://siliconangle.com/2026"
-  },
-  {
-   "category": "infra",
    "source": "Cloudflare Blog",
    "title": "Quad9’s withdrawal from France: A canary in the coal mine",
    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
    "published_utc": "2026-11-17T20:24+00:00",
    "summary": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet."
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Microsoft rolls out new first-party models and updates to agentic AI continuous improvement",
-   "url": "https://siliconangle.com/2026/11/17/microsoft-rolls-out-new-first-party-models-and-updates-to-agentic-ai-continuous-improvement/",
-   "published_utc": "2026-11-17T20:05+00:00",
-   "summary": "<p>Microsoft Corp. today rolled out new generative artificial intelligence models and updates to Foundry, the company’s unified enterprise platform that helps developers and organizations ground, test and deploy AI applications and autonomous agents. Updates to Foundry IQ, part of Microsoft IQ, now provide an enterprise knowledge graph out of the box, delivering a full estate [&#8230;]</p>\n<p>The "
   },
   {
    "category": "devops",
@@ -418,35 +1117,11 @@
   },
   {
    "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Dell puts a single gateway between enterprise AI agents and the data they crave",
-   "url": "https://siliconangle.com/2026/11/17/data-intelligence-lifts-enterprise-ai-factory-accuracy-dellatsc26/",
-   "published_utc": "2026-11-17T18:19+00:00",
-   "summary": "<p>Data intelligence is becoming the deciding layer of the enterprise AI factory as companies learn that racks of graphics processing units deliver little value when agents lack trusted, governed context. Neocloud providers built the first wave of large-scale AI systems, and core enterprise customers now want the same capabilities inside their own organizations. Dell Technologies [&#8230;]</p>\n<p>"
-  },
-  {
-   "category": "ai",
-   "source": "Hacker News (AI, 100+ pts)",
-   "title": "Not Everything Needs an LLM",
-   "url": "https://newsletter.posthog.com/p/decision-models",
-   "published_utc": "2026-11-17T18:16+00:00",
-   "summary": "<p>Article URL: <a href=\"https://newsletter.posthog.com/p/decision-models\">https://newsletter.posthog.com/p/decision-models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50535740\">https://news.ycombinator.com/item?id=50535740</a></p>\n<p>Points: 104</p>\n<p># Comments: 42</p>"
-  },
-  {
-   "category": "infra",
    "source": "BleepingComputer",
    "title": "Tor releases emergency update amid ongoing DDoS attack",
    "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
    "published_utc": "2026-11-17T18:04+00:00",
    "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Arista takes aim at the next AI network battleground: distributed inference",
-   "url": "https://siliconangle.com/2026/11/17/arista-takes-aim-at-the-next-ai-network-battleground-distributed-inference/",
-   "published_utc": "2026-11-17T17:57+00:00",
-   "summary": "<p>Awareness of the network&#8217;s role in artificial intelligence has steadily increased, with much of the focus on the back end – larger clusters, faster ports and scale-across fabrics that stitch graphics processing units together across data centers. Arista Networks Inc. has seen continued, accelerated growth and has been one of the biggest winners of that [&#8230;]</p>\n<p>The post <a href=\"h"
   },
   {
    "category": "devops",
@@ -455,78 +1130,6 @@
    "url": "https://thenewstack.io/replit-missions-agent-swarms/",
    "published_utc": "2026-11-17T17:37+00:00",
    "summary": "<img alt=\"Illustration depicting a swarm of agents.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"683\" src=\"https://cdn.thenewstack.io/media/2026/11/2530ee0a-getty-images-0gfedlukaji-unsplash-1024x683.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Agent swarms are all the rage, as companies set about finding ways to coordinate multiple A"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Optimum skips $102.5m debt payment as company continues debt negotiations",
-   "url": "https://www.datacenterdynamics.com/en/news/optimum-skips-1025m-debt-payment-as-company-continues-debt-negotiations/",
-   "published_utc": "2026-11-17T17:25+00:00",
-   "summary": "<p>As company confirms it's working to reduce $22bn debt</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "150MW data center project planned in Haifa, Israel",
-   "url": "https://www.datacenterdynamics.com/en/news/150mw-data-center-project-planned-in-haifa-israel/",
-   "published_utc": "2026-11-17T17:21+00:00",
-   "summary": "<p>Local renewable and real estate firms partner on project</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Swedish energy giant Vattenfall selects Kraken to manage battery and renewable assets in Germany",
-   "url": "https://www.datacenterdynamics.com/en/news/swedish-energy-giant-vattenfall-selects-kraken-to-manage-battery-and-renewable-assets-in-germany/",
-   "published_utc": "2026-11-17T17:20+00:00",
-   "summary": "<p>Will provide a cloud-native control layer across Vattenfall’s BESS and renewable assets</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Patmos plans 50MW data center outside Birmingham, Alabama",
-   "url": "https://www.datacenterdynamics.com/en/news/patmos-plans-50mw-data-center-outside-birmingham-alabama/",
-   "published_utc": "2026-11-17T17:08+00:00",
-   "summary": "<p>Company looks to convert former Walmart building</p>"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Chainguard goes self-serve with free Starter plan and $500-a-month Team plan",
-   "url": "https://siliconangle.com/2026/11/17/chainguard-goes-self-serve-with-free-starter-plan-and-500-a-month-team-plan/",
-   "published_utc": "2026-11-17T17:00+00:00",
-   "summary": "<p>Software supply chain security company Chainguard Inc. is now offering its products on a self-serve basis, with the launch today of a free plan called Chainguard Starter and a paid Team plan priced at $500 a month. The free plan covers nearly all of Chainguard&#8217;s products, with usage limits set at a level that fits [&#8230;]</p>\n<p>The post <a href=\"https://siliconangle.com/2026/11/17/chai"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Red Hat and Microsoft bring OpenShift virtual machines to Azure",
-   "url": "https://siliconangle.com/2026/11/17/red-hat-and-microsoft-bring-openshift-virtual-machines-to-azure/",
-   "published_utc": "2026-11-17T17:00+00:00",
-   "summary": "<p>IBM Corp. subsidiary Red Hat and Microsoft Corp. are expanding their longtime engineering partnership to enable enterprises to run virtual machines on Microsoft Azure using Red Hat&#8217;s OpenShift Virtualization platform, providing an alternative to traditional hypervisors and what Red Hat called a path to modernizing legacy applications. The collaboration, announced today, involves changes t"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "University of Osaka launches SEAFOOD platform to link Octopus supercomputer with quantum processors",
-   "url": "https://www.datacenterdynamics.com/en/news/university-of-osaka-launches-seafood-platform-to-link-octopus-supercomputer-with-quantum-processors/",
-   "published_utc": "2026-11-17T17:00+00:00",
-   "summary": "<p>Platform will initially be made available to ten research teams at the university</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Amazon to invest $7bn into Indian renewable projects by 2030",
-   "url": "https://www.datacenterdynamics.com/en/news/amazon-to-invest-7bn-into-indian-renewable-projects-by-2030/",
-   "published_utc": "2026-11-17T16:50+00:00",
-   "summary": "<p>Signs four PPAs in India with a combined capacity of 934MW</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Macquarie Data Centres eyes 200MW campus in Sydney, Australia",
-   "url": "https://www.datacenterdynamics.com/en/news/macquarie-data-centres-eyes-200mw-campus-in-sydney-australia/",
-   "published_utc": "2026-11-17T16:50+00:00",
-   "summary": "<p>Firm looks to continue build-out in Macquarie Park</p>"
   },
   {
    "category": "ai",
@@ -561,30 +1164,6 @@
    "summary": "<img alt=\"Abstract glowing digital light threads and data particles sweeping across a black background, representing AI training loops.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"768\" src=\"https://cdn.thenewstack.io/media/2026/11/7a22998e-paris-bilal-gld2k8ozalu-unsplash-1024x768.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Producti"
   },
   {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "LanceDB raises $57.5M to accelerate AI model training with multimodal data platform",
-   "url": "https://siliconangle.com/2026/11/17/lancedb-raises-57-5m-to-accelerate-ai-model-training-with-multimodal-data-platform/",
-   "published_utc": "2026-11-17T16:30+00:00",
-   "summary": "<p>LanceDB Inc., the developer of database technology designed to speed up artificial intelligence models, today announced it has raised $57.5 million in early-stage funding to bring a multimodal lakehouse to researchers, model builders and platform teams. Bessemer Venture Partners and Innovation Endeavors led the Series B round. Other investors in the round included Theory Ventures, [&#8230;]</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "100MW data center planned in Sussex, UK",
-   "url": "https://www.datacenterdynamics.com/en/news/100mw-data-center-planned-in-sussex-uk/",
-   "published_utc": "2026-11-17T16:22+00:00",
-   "summary": "<p>As Pace DC plans project in Bedfordshire</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Millicom to acquire Entel Peru for $1.7bn",
-   "url": "https://www.datacenterdynamics.com/en/news/millicom-agrees-to-buy-entel-peru-for-1714-million/",
-   "published_utc": "2026-11-17T16:19+00:00",
-   "summary": "<p>The acquisition will enable Millicom to enter the Peruvian market and expand its presence to 13 countries</p>"
-  },
-  {
    "category": "iot",
    "source": "RCR Wireless",
    "title": "Private 5G planning must go beyond coverage, iBwave says",
@@ -601,100 +1180,12 @@
    "summary": "When is the right time to drop APIs provided by the frontier AI labs, and what about choosing models & providers, caching, dedicated GPUs, KV cache concerns, and more? A practical deepdive"
   },
   {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Sponsored: Gaining time: The evolution of the market",
-   "url": "https://www.datacenterdynamics.com/en/opinions/gaining-time-the-evolution-of-the-market/",
-   "published_utc": "2026-11-17T16:00+00:00",
-   "summary": "<p>Time has become an increasingly important factor in major construction and engineering builds, with schedule durations contracting significantly over the past 15 years</p>"
-  },
-  {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
-   "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
-   "published_utc": "2026-11-17T16:00+00:00",
-   "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "The Cooling Supplement",
-   "url": "https://www.datacenterdynamics.com/en/magazines/the-cooling-supplement-2026-4/",
-   "published_utc": "2026-11-17T15:53+00:00",
-   "summary": "<p>Hot topics for cold data centers</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Intersect signs 1.5GW transformer supply deal with Heron Power",
-   "url": "https://www.datacenterdynamics.com/en/news/intersect-signs-15gw-transformer-supply-deal-with-heron-power/",
-   "published_utc": "2026-11-17T15:26+00:00",
-   "summary": "<p>Deliveries expected to commence in 2028</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "CBRE: Milan set to overtake Dublin as fifth-largest data center market in Europe by 2028",
-   "url": "https://www.datacenterdynamics.com/en/news/cbre-milan-set-to-overtake-dublin-as-fifth-largest-data-center-market-in-europe-by-2028/",
-   "published_utc": "2026-11-17T15:21+00:00",
-   "summary": "<p>Milan could see 255MW of new capacity</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Northern Europe Energy targets data center in Riihimäki, Finland",
-   "url": "https://www.datacenterdynamics.com/en/news/northern-europe-energy-targets-data-center-in-riihim%C3%A4ki-finland/",
-   "published_utc": "2026-11-17T15:01+00:00",
-   "summary": "<p>Ixian plans 50MW project in Lapinlahti, SR-Kiinteistöt eyes development in Kauhava</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Oak Ridge National Laboratory unveils Lux supercomputer",
-   "url": "https://www.datacenterdynamics.com/en/news/oak-ridge-national-laboratory-unveils-lux-supercomputer/",
-   "published_utc": "2026-11-17T15:01+00:00",
-   "summary": "<p>System debuted at 14 on most recent Top500 list</p>"
-  },
-  {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-   "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-   "published_utc": "2026-11-17T15:01+00:00",
-   "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them.  [...]"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Rakuten Mobile, JTower pair to expand infra sharing to more than 1,000 sites in Japan",
-   "url": "https://www.datacenterdynamics.com/en/news/rakuten-mobile-jtower-pair-to-expand-infra-sharing-to-more-than-1000-sites-in-japan/",
-   "published_utc": "2026-11-17T14:50+00:00",
-   "summary": "<p>Includes indoor and outdoor sites</p>"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Nokia, Nscale, Skeleton, Telia, and Verda form gigafactory consortium",
-   "url": "https://www.datacenterdynamics.com/en/news/nokia-nscale-skeleton-telia-and-verda-form-gigafactory-consortium/",
-   "published_utc": "2026-11-17T14:40+00:00",
-   "summary": "<p>Companies target sites across Finland, Estonia, Latvia, and Sweden</p>"
-  },
-  {
    "category": "iot",
    "source": "IoT Insider",
    "title": "Thales and BR Captura examine how SGP.32 could reshape IoT connectivity in Latin America",
    "url": "https://www.iotinsider.com/industries/communications/thales-and-br-captura-examine-how-sgp-32-could-reshape-iot-connectivity-in-latin-america/",
    "published_utc": "2026-11-17T14:32+00:00",
    "summary": "Thales and BR Captura have published a joint paper examining what the SGP.32 eSIM standard could mean for IoT connectivity in Brazil and wider Latin America, arguing that it could give businesses greater control over how connected devices access mobile networks throughout their operational lives. The paper explores how organisations could adapt connectivity as coverage,&#8230;"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "Google inks 50MW geothermal PPA with Quaise in Oregon",
-   "url": "https://www.datacenterdynamics.com/en/news/google-inks-50mw-geothermal-ppa-with-quaise-in-oregon/",
-   "published_utc": "2026-11-17T14:31+00:00",
-   "summary": "<p>PPA to support Google's data centers in The Dalles</p>"
   },
   {
    "category": "ai",
@@ -705,76 +1196,12 @@
    "summary": "<p>Article URL: <a href=\"https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns\">https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50531751\">https://news.ycombinator.com/item?id=50531751</a></p>\n<p>Points: "
   },
   {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Exclusive: Envoy targets defense contractors and semiconductor fabs with Visitors Critical",
-   "url": "https://siliconangle.com/2026/11/17/exclusive-envoy-targets-defense-contractors-and-semiconductor-fabs-with-visitors-critical/",
-   "published_utc": "2026-11-17T14:00+00:00",
-   "summary": "<p>Workplace management platform company Envoy Inc. today launched Visitors Critical, a new tier of its visitor management service for defense contractors, semiconductor fabs and other high-security sites. The new tier is aimed at a problem Envoy says is common at those sites, where visitor security is still run across email, spreadsheets and separate systems and [&#8230;]</p>\n<p>The post <a href="
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Spara’s Scout AI assistant acts on sales opportunities before reps know to look",
-   "url": "https://siliconangle.com/2026/11/17/sparas-scout-ai-assistant-acts-on-sales-opportunities-before-reps-know-to-look/",
-   "published_utc": "2026-11-17T14:00+00:00",
-   "summary": "<p>Artificial intelligence sales agent startup Spara Inc. today introduced Scout, an AI assistant designed to act on sales opportunities before salespeople know to look for them. Working around the clock, the new service analyzes context from customer conversations, emails and customer relationship management data to identify opportunities, prepare personalized outreach and complete work before re"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Semperis updates Lightning identity security platform to defend against AI agent attacks",
-   "url": "https://siliconangle.com/2026/11/17/semperis-updates-lightning-identity-security-platform-to-defend-against-ai-agent-attacks/",
-   "published_utc": "2026-11-17T14:00+00:00",
-   "summary": "<p>Enterprise identity protection and cyber resilience company Semperis Ltd. today released the latest version of its Semperis Lightning identity security platform, which is designed to help organizations defend against identity attacks by artificial intelligence agents and conventional attackers alike. Delivered through a single console, the new version of Lightning is said to combine exposure ma"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Exclusive: Cogent Security’s DefenseOS adds policies and automations for AI agents",
-   "url": "https://siliconangle.com/2026/11/17/exclusive-cogent-securitys-defenseos-adds-agent-policies-and-agent-automations-for-ai-agents/",
-   "published_utc": "2026-11-17T14:00+00:00",
-   "summary": "<p>Vulnerability management startup Cogent Security Inc. today launched DefenseOS, an operating system designed for artificial intelligence agents that carry out defensive cybersecurity work inside the enterprise. Arriving with DefenseOS are two new capabilities, Agent Policies and Agent Automations. The first is designed to give Cogent’s AI agents a deep understanding of the enterprise environmen"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "SiMa.ai’s Palette 3.0 runs many AI models on one chip and lifts throughput up to 3.5 times",
-   "url": "https://siliconangle.com/2026/11/17/sima-ais-palette-3-0-runs-many-ai-models-on-one-chip-and-lifts-throughput-up-to-3-5-times/",
-   "published_utc": "2026-11-17T14:00+00:00",
-   "summary": "<p>Physical artificial intelligence chip startup SiMa Technologies Inc. today released Palette 3.0, a new version of its Palette software suite intended to allow many AI models to run concurrently on one chip. According to the company, the release, which builds on the Palette Neat agentic development environment launched in June, can raise model throughput by [&#8230;]</p>\n<p>The post <a href=\"htt"
-  },
-  {
    "category": "iot",
    "source": "RCR Wireless",
    "title": "Who’s left? The MDU Wi-Fi vendor landscape after Cambium (Analyst Angle)",
    "url": "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle",
    "published_utc": "2026-11-17T13:47+00:00",
    "summary": "Following Cambium Networks’ collapse, US multifamily Wi-Fi providers are reassessing their vendors as RUCKUS loses ground, TP-Link faces regulatory scrutiny and Cambium changes hands. Maravedis maps the contenders, risks and&#8230;"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Three insights you might have missed from theCUBE’s coverage of Dell’s “AI Leadership Symposium”",
-   "url": "https://siliconangle.com/2026/11/17/three-insights-you-might-have-missed-from-thecubes-coverage-of-dells-ai-leadership-symposium-dellaileadershipsymposium/",
-   "published_utc": "2026-11-17T13:47+00:00",
-   "summary": "<p>Moving enterprise AI workloads into production introduces practical challenges for chief information officers. Those challenges include managing costs, scaling enterprise AI infrastructure and establishing governance models to keep agents in check and data secure. Cost and control were major themes of discussion at Dell Technologies Inc.’s “AI Leadership Symposium.” Expanding AI workloads can d"
-  },
-  {
-   "category": "infra",
-   "source": "Data Center Dynamics",
-   "title": "The future of direct-to-die is dielectric",
-   "url": "https://www.datacenterdynamics.com/en/whitepapers/the-future-of-direct-to-die-is-dielectric/",
-   "published_utc": "2026-11-17T13:30+00:00",
-   "summary": "<p>How two-phase accelerates next-gen cooling</p>"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "SuperDial revamps its healthcare voice agent platform to stop AI bots wasting time calling each other",
-   "url": "https://siliconangle.com/2026/11/17/superdial-revamps-its-healthcare-voice-agent-platform-to-stop-ai-bots-wasting-time-calling-each-other/",
-   "published_utc": "2026-11-17T13:00+00:00",
-   "summary": "<p>SuperDial Inc., the creator of voice-first artificial intelligence agents for automating healthcare workflows, is overhauling its platform with a new Agent-to-Agent RCM architecture. The goal is to eliminate the compute inefficiencies that have arisen as autonomous workers become more prevalent in the industry. The startup, which raised $15 million in a Series A funding round [&#8230;]</p>\n<p>T"
   },
   {
    "category": "swe",
@@ -801,14 +1228,6 @@
    "summary": "<p>The bug testing never caught.</p>\n<p>The post <a href=\"https://leaddev.com/technical-direction/microsofts-outage-started-with-a-fix?utm_source=leaddev&#038;utm_medium=RSS\">Microsoft’s outage started with a fix</a> appeared first on <a href=\"https://leaddev.com\">LeadDev</a>.</p>"
   },
   {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-   "published_utc": "2026-11-17T11:19+00:00",
-   "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]"
-  },
-  {
    "category": "iot",
    "source": "CNX Software",
    "title": "Review of Seeed Studio 4.26″ Mono and 7.3″ Color e-paper Kit with OpenDisplay and Home Assistant",
@@ -833,28 +1252,12 @@
    "summary": "Wi-Fi has evolved far beyond its traditional role as a wireless access technology. As enterprises modernize, AI workloads proliferate, and operators pursue converged connectivity strategies, Wi-Fi is increasingly becoming a&#8230;"
   },
   {
-   "category": "iot",
-   "source": "RCR Wireless",
-   "title": "Connecting intelligence: the optical backbone of AI",
-   "url": "https://rcrwireless.com/20261117/ai-infrastructure/optical-backbone-of-ai-nokia",
-   "published_utc": "2026-11-17T10:26+00:00",
-   "summary": "AI infrastructure investment is expanding in two directions simultaneously: scaling massive compute clusters for model training, while increasing distributed capacity to support the rapidly growing demands of inference. Even as&#8230;"
-  },
-  {
    "category": "swe",
    "source": "InfoQ Development",
    "title": "Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI",
    "url": "https://www.infoq.com/news/2026/11/dotnet-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
    "published_utc": "2026-11-17T10:20+00:00",
    "summary": "<img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\" /><p>Microsoft has released .NET 11, a Standard Term Support release with two years of support. It ships C# 15 with union types and closed hierarchies, a Native AOT CLI host, a preview of Runtime Async, Zstandard compression, asynchronous validation and OpenAPI 3.2 in ASP.NET Core, CoreCLR as the default runtime in .NET MAU"
-  },
-  {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-   "url": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-   "published_utc": "2026-11-17T09:44+00:00",
-   "summary": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]"
   },
   {
    "category": "devops",
@@ -865,14 +1268,6 @@
    "summary": "<img src=\"https://res.infoq.com/news/2026/11/google-sre-book-ai-era/en/headerimage/generatedHeaderImage-1794674690062.jpg\" /><p>Google has announced a completely rewritten second edition of Site Reliability Engineering: How Google Runs Production Systems, ten years after the original book was published by O'Reilly Media. The update reframes SRE around modern cloud architectures, platform engineeri"
   },
   {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-   "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-   "published_utc": "2026-11-17T08:35+00:00",
-   "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]"
-  },
-  {
    "category": "mgmt",
    "source": "LeadDev",
    "title": "Stop blaming AI tools for flat velocity",
@@ -881,28 +1276,12 @@
    "summary": "<p>Test your habits before tools.</p>\n<p>The post <a href=\"https://leaddev.com/velocity/stop-blaming-ai-tools-for-flat-velocity?utm_source=leaddev&#038;utm_medium=RSS\">Stop blaming AI tools for flat velocity</a> appeared first on <a href=\"https://leaddev.com\">LeadDev</a>.</p>"
   },
   {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "With $5M in funding, Pretxt launches runtime oversight layer to supervise AI agents in real time",
-   "url": "https://siliconangle.com/2026/11/17/with-5m-in-funding-pretxt-launches-runtime-oversight-layer-to-supervise-ai-agents-in-real-time/",
-   "published_utc": "2026-11-17T08:00+00:00",
-   "summary": "<p>Artificial intelligence supervision pioneer Pretxt AI is launching with $5 million in seed funding today as it tries to contain the very real risk of unleashing autonomous agents in production environments. It has created a new kind of “AI Supervision” tool that applies oversight at runtime to ensure those agents follow a company’s rules at [&#8230;]</p>\n<p>The post <a href=\"https://siliconangl"
-  },
-  {
    "category": "iot",
    "source": "CNX Software",
    "title": "750 MHz GigaDevice GD32H7 Cortex-M7 MCU family gets up to 9.5MB Flash, EtherCAT for industrial applications",
    "url": "https://www.cnx-software.com/2026/11/17/750-mhz-gigadevice-gd32h7-cortex-m7-mcu-family-gets-up-to-9-5mb-flash-ethercat-for-industrial-applications/",
    "published_utc": "2026-11-17T07:53+00:00",
    "summary": "<div><img alt=\"GigaDevice GD32H7 new generation MCU\" class=\"attachment-medium size-medium wp-post-image\" height=\"480\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/11/GigaDevice-GD32H7-new-generation-MCU-720x480.jpg\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>GigaDevice adds new industrial parts to the GD32H7 series of Cortex-M7 MCUs, running at up to 750 MHz. The new lineup "
-  },
-  {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-   "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-   "published_utc": "2026-11-17T07:25+00:00",
-   "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]"
   },
   {
    "category": "ai",
@@ -921,30 +1300,6 @@
    "summary": "<div><img alt=\"Forlinx OK8275AA-C Qualcomm QCS8275 SBC\" class=\"attachment-medium size-medium wp-post-image\" height=\"508\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/11/Forlinx-OK8275AA-C-Qualcomm-QCS8275-SBC-720x508.jpg\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>Forlinx OK8275AA-C is an industrial-grade single board computer (SBC) based on the company&#8217;s FET8275AA-C S"
   },
   {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-   "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-   "published_utc": "2026-11-17T02:12+00:00",
-   "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Open AI hit with lawsuit in California over Hugging Face rogue agent incident",
-   "url": "https://siliconangle.com/2026/11/16/open-ai-hit-with-lawsuit-in-california-over-hugging-face-rogue-agent-incident/",
-   "published_utc": "2026-11-17T01:56+00:00",
-   "summary": "<p>California Attorney General Rob Bonta today announced the state has launched a lawsuit against OpenAI Group PBC after the company’s AI agents earlier this year went rogue and hacked the open-source AI platform Hugging Face Inc. The 31-page lawsuit, filed in San Francisco Superior Court, claims Open AI has engendered the public and put institutions [&#8230;]</p>\n<p>The post <a href=\"https://sili"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "At SC26, Nvidia debuts new Rubin HPC chip, scientific research libraries",
-   "url": "https://siliconangle.com/2026/11/16/nvidia-debuts-new-rubin-hpc-chip-scientific-research-libraries/",
-   "published_utc": "2026-11-17T01:45+00:00",
-   "summary": "<p>Nvidia Corp. today introduced a set of offerings designed to speed up scientific research across a range of fields. The lineup is headlined by Rubin HPC, an upcoming graphics card with significantly more cores than the company’s current flagship chip. It’s joined by more than a half-dozen software tools geared toward scientists and engineers. The [&#8230;]</p>\n<p>The post <a href=\"https://silic"
-  },
-  {
    "category": "iot",
    "source": "CNX Software",
    "title": "Rockchip RK3668 switches to Cortex-A725 and Cortex-A520 cores, engineering samples planned for Q1 2027",
@@ -959,238 +1314,6 @@
    "url": "https://simonwillison.net/2026/Nov/16/llm/",
    "published_utc": "2026-11-16T23:57+00:00",
    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.3\">llm 0.37.3</a></p>\n        <p>A bug fix release for <a href=\"https://llm.datasette.io\">LLM</a>, mainly to cover a problem with the most recent Homebrew package of the software.</p>\n<p>Homebrew now ships the latest SQLite, <a href=\"https://www.sqlite.org/releaselog/3_54_1.html\">3.54.1</a>, which includes <a hre"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Corma raises $125M to train cybersecurity-optimized foundation models",
-   "url": "https://siliconangle.com/2026/11/16/corma-raises-125m-to-train-cybersecurity-optimized-foundation-models/",
-   "published_utc": "2026-11-16T23:48+00:00",
-   "summary": "<p>Corma.ai Ltd., a startup that develops artificial intelligence models for cybersecurity teams, has raised $125 million in funding. NEA led the Series A round. Corma stated today that returning backers Khosla Ventures, Coatue and Sequoia Capital chipped in as well. The company is now valued at $1 billion. Corma, which has offices in San Francisco [&#8230;]</p>\n<p>The post <a href=\"https://silico"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Noeri raises $110M to help companies build living AI systems that self-improve over time",
-   "url": "https://siliconangle.com/2026/11/16/noeri-raises-110m-to-help-companies-build-living-ai-systems-that-self-improve-over-time/",
-   "published_utc": "2026-11-16T23:45+00:00",
-   "summary": "<p>Noeri Inc., a startup developing artificial intelligence systems that continuously improve their outputs as they learn from an organization’s data and work, is launching with $110 million in funding. Today’s round was led by Menlo Ventures and saw participation from Seattle-based Madrona Ventures, Kindred Ventures, Wing Venture Capital and NEA. Snowflake and Cisco Ventures also [&#8230;]</p>\n<p"
-  },
-  {
-   "category": "iot",
-   "source": "Embedded.com",
-   "title": "Mikroe Adds FreeRTOS Support to NECTO Studio IDE",
-   "url": "https://www.embedded.com/mikroe-adds-freertos-support-to-necto-studio-ide/",
-   "published_utc": "2026-11-16T23:08+00:00",
-   "summary": "<p>Mikroe has released NECTO Studio 7.5.2, the latest version of its multi-architecture, multi-language integrated development environment (IDE), adding code generation support for FreeRTOS, the open-source real-time operating system widely used in embedded devices. The integration simplifies project creation and helps developers get started with real-time applications across a broad range of micr"
-  },
-  {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-   "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-   "published_utc": "2026-11-16T22:54+00:00",
-   "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems. [...]"
-  },
-  {
-   "category": "devops",
-   "source": "The New Stack",
-   "title": "AI agents were all over KubeCon. Production is another story",
-   "url": "https://thenewstack.io/cncf-bryce-ai-agents/",
-   "published_utc": "2026-11-16T22:08+00:00",
-   "summary": "<img alt=\"The New Stack’s Frederic Lardinois sat down with Jonathan Bryce, executive director of the Cloud Native Computing Foundation (CNCF), to discuss how AI is reshaping cloud native infrastructure, open source innovation, and the developer community.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"576\" src=\"https://cdn.thenewstack.io/media/2026/11/81c5d979-thumbnail-24"
-  },
-  {
-   "category": "infra",
-   "source": "BleepingComputer",
-   "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-   "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-   "published_utc": "2026-11-16T21:31+00:00",
-   "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]"
-  },
-  {
-   "category": "devops",
-   "source": "The New Stack",
-   "title": "Google found hackers using autonomous AI agents to turn security patches into exploits",
-   "url": "https://thenewstack.io/autonomous-ai-exploit-agents/",
-   "published_utc": "2026-11-16T21:27+00:00",
-   "summary": "<img alt=\"computer screen with a mysterious set of eyes peeking out\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"768\" src=\"https://cdn.thenewstack.io/media/2026/11/1ae72a75-ghariza-mahavira-rtg-vu9xjiu-unsplash-1024x768.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Google&#8217;s Threat Intelligence Group says attackers are using auton"
-  },
-  {
-   "category": "infra",
-   "source": "SiliconANGLE",
-   "title": "Alibaba launches Qwen4-Max with training, attention optimizations",
-   "url": "https://siliconangle.com/2026/11/16/alibaba-launches-qwen4-max-with-training-attention-optimizations/",
-   "published_utc": "2026-11-16T21:21+00:00",
-   "summary": "<p>Alibaba Group Holding Ltd. today introduced Qwen4-Max, its newest and most capable large language model. The algorithm not only generates higher-quality output than its predecessor but also costs less. Those improvements are the result of a new architecture, Qwen4, that made the LLM’s training run more efficient. Additionally, Alibaba has equipped the model with an [&#8230;]</p>\n<p>The post <a "
-  },
-  {
-   "category": "devops",
-   "source": "The New Stack",
-   "title": "Dax Raad rebuilt his browser tool in Rust for $60. Then memory use fell 97%.",
-   "url": "https://thenewstack.io/opencode-browse-rust-rewrite/",
-   "published_utc": "2026-11-16T17:59+00:00",
-   "summary": "<img alt=\"developer with code on his screen\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"753\" src=\"https://cdn.thenewstack.io/media/2026/11/57fc2d31-rizki-ardia-i-aetokirtk-unsplash-1024x753.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>OpenCode developer Dax Raad says he rebuilt the project&#8217;s browser automation tool in Rust for "
-  },
-  {
-   "category": "devops",
-   "source": "The New Stack",
-   "title": "With Qwen4-Max, Alibaba puts the open source jacket back on the hanger",
-   "url": "https://thenewstack.io/qwen4-max-alibaba-open-weights/",
-   "published_utc": "2026-11-16T16:54+00:00",
-   "summary": "<img alt=\"Alibaba Xixi Campus in Hangzhou, Zhejiang, China.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"683\" src=\"https://cdn.thenewstack.io/media/2026/11/63d83074-zonghe-ma-3xzz4akzbau-unsplash-1-1024x683.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Alibaba has officially unveiled Qwen4-Max, the first model in its next-generation Qw"
-  },
-  {
-   "category": "iot",
-   "source": "RCR Wireless",
-   "title": "Rakuten Mobile narrows Q3 loss as network investment accelerates",
-   "url": "https://rcrwireless.com/20261116/carriers/rakuten-mobile-network",
-   "published_utc": "2026-11-16T15:41+00:00",
-   "summary": "Rakuten&#8217;s chief executive officer Hiroshi Mikitani said the company would continue its investment policy while balancing growth and profitability and also cited the planned introduction of 5G SA as a&#8230;"
-  },
-  {
-   "category": "iot",
-   "source": "RCR Wireless",
-   "title": "Poste confirms $774m in TIM synergies, details integration plan",
-   "url": "https://rcrwireless.com/20261116/carriers/poste-tim-integration",
-   "published_utc": "2026-11-16T15:40+00:00",
-   "summary": "Poste Italiane has established an integration structure comprising a steering committee, an integration office and nine work streams overseeing 27 sub-work streams In sum – what to know Synergies confirmed&#8230;"
-  },
-  {
-   "category": "iot",
-   "source": "RCR Wireless",
-   "title": "ISAC on the 5G frontline, 6G frontier – telcos target defense networks",
-   "url": "https://rcrwireless.com/20261116/network-infrastructure/isac-on-the-5g-frontline-6g-frontier-telcos-target-defense-networks",
-   "published_utc": "2026-11-16T15:39+00:00",
-   "summary": "Nokia is testing ISAC for US military drone detection, while Elisa and Telefónica are putting public and private 5G to work in European defence projects – and Ericsson has a&#8230;"
-  },
-  {
-   "category": "swe",
-   "source": "InfoQ Development",
-   "title": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
-   "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
-   "published_utc": "2026-11-16T15:25+00:00",
-   "summary": "<img src=\"https://res.infoq.com/news/2026/11/java-news-roundup-nov09-2026/en/headerimage/java-news-roundup-image-1794842460564.jpg\" /><p>This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernat"
-  },
-  {
-   "category": "swe",
-   "source": "InfoQ Development",
-   "title": "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
-   "url": "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
-   "published_utc": "2026-11-16T14:37+00:00",
-   "summary": "<img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\" /><p>Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring ag"
-  },
-  {
-   "category": "iot",
-   "source": "IoT Insider",
-   "title": "Electronica 2026: NXP targets robotics integration bottleneck with unified physical AI platform",
-   "url": "https://www.iotinsider.com/events/electronica-2026-nxp-targets-robotics-integration-bottleneck-with-unified-physical-ai-platform/",
-   "published_utc": "2026-11-16T13:36+00:00",
-   "summary": "NXP Semiconductors is seeking to reduce the time and complexity involved in developing autonomous robots with a new hardware and software platform that brings together artificial intelligence, motor control, connectivity and security. The Dutch semiconductor group unveiled its unified robotics platform at electronica 2026, positioning it as a way for developers to move from evaluating&#8230;"
-  },
-  {
-   "category": "mgmt",
-   "source": "The Pragmatic Engineer",
-   "title": "Software engineering after code becomes cheap with Satya Nadella",
-   "url": "https://newsletter.pragmaticengineer.com/p/software-engineering-after-code-becomes",
-   "published_utc": "2026-11-16T13:33+00:00",
-   "summary": "Microsoft CEO Satya Nadella on AI&#8217;s impact on software engineering, code verification, and engineers&#8217; careers."
-  },
-  {
-   "category": "iot",
-   "source": "CNX Software",
-   "title": "GEEKOM A5 2027 Edition review – Part 2: A mid-range AMD Ryzen 7 7730U mini PC tested with Windows 11 Pro",
-   "url": "https://www.cnx-software.com/2026/11/16/geekom-a5-2027-edition-review-part-2-a-mid-range-amd-ryzen-7-7730u-mini-pc-tested-with-windows-11-pro/",
-   "published_utc": "2026-11-16T12:00+00:00",
-   "summary": "<div><img alt=\"GEEKOM A5 2027 Edition Mini PC review windows\" class=\"attachment-medium size-medium wp-post-image\" height=\"485\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/11/GEEKOM-A5-2027-Edition-Mini-PC-review-windows-720x485.webp\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>We&#8217;ve checked out the GEEKOM A5 2027 Edition mini PC&#8217;s hardware with an unboxing and te"
-  },
-  {
-   "category": "iot",
-   "source": "RCR Wireless",
-   "title": "Roll agents out like patches – in stages and with a way back (Reader Forum)",
-   "url": "https://rcrwireless.com/20261116/reader-forum/roll-agents-out-like-patches-reader-forum",
-   "published_utc": "2026-11-16T11:53+00:00",
-   "summary": "Rogue AI agents could expose enterprise networks to security breaches, compliance failures and uncontrolled changes as autonomy increases. Hexnode’s Apu Pavithran argues that businesses should manage agent rollouts like software&#8230;"
-  },
-  {
-   "category": "mgmt",
-   "source": "LeadDev",
-   "title": "Systems thinking outlasts frameworks",
-   "url": "https://leaddev.com/technical-direction/systems-thinking-outlasts-frameworks?utm_source=leaddev&utm_medium=RSS",
-   "published_utc": "2026-11-16T11:04+00:00",
-   "summary": "<p>Think beyond the component level.</p>\n<p>The post <a href=\"https://leaddev.com/technical-direction/systems-thinking-outlasts-frameworks?utm_source=leaddev&#038;utm_medium=RSS\">Systems thinking outlasts frameworks</a> appeared first on <a href=\"https://leaddev.com\">LeadDev</a>.</p>"
-  },
-  {
-   "category": "swe",
-   "source": "InfoQ Development",
-   "title": "Podcast: Getting CRA Compliant Hardens the Code and Gets Your Company Closer to Digital Sovereignty",
-   "url": "https://www.infoq.com/podcasts/company-closer-digital-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
-   "published_utc": "2026-11-16T11:00+00:00",
-   "summary": "<img src=\"https://res.infoq.com/podcasts/company-closer-digital-sovereignty/en/smallimage/infoq-podcast-500-1794318137932.jpg\" /><p>In this episode, Christopher \"CRob\" Robinson, CTO of OpenSSF, Akrites and Chief Security Architect of the Linux Foundation, explores the state of software supply chain security amid multiple security incidents and explains how tools like Scorecard, the Security Baseli"
-  },
-  {
-   "category": "swe",
-   "source": "InfoQ Development",
-   "title": "GitHub Rebuilds the Copilot App's Diff Surface to Open Million-Line Pull Requests without Jank",
-   "url": "https://www.infoq.com/news/2026/11/github-pull-requests-rebuild/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
-   "published_utc": "2026-11-16T10:32+00:00",
-   "summary": "<img src=\"https://res.infoq.com/news/2026/11/github-pull-requests-rebuild/en/headerimage/generatedHeaderImage-1794747791339.jpg\" /><p>GitHub engineers rebuilt the diff view in the Copilot app to handle a pull request with 2,200 files, over a million changed lines and 400 inline comments. The design separates fixed-height code rows from variable-height comment blocks, which are measured in batches "
-  },
-  {
-   "category": "swe",
-   "source": "InfoQ Development",
-   "title": "AWS Nitro Sandboxes Put Each EKS Pod in its Own MicroVM with One RuntimeClass Field",
-   "url": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
-   "published_utc": "2026-11-16T09:07+00:00",
-   "summary": "<img src=\"https://res.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/en/headerimage/generatedHeaderImage-1794301940782.jpg\" /><p>AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential mode adds attestation-gated key release. The document"
-  },
-  {
-   "category": "devops",
-   "source": "InfoQ DevOps",
-   "title": "AWS Nitro Sandboxes Put Each EKS Pod in its Own MicroVM with One RuntimeClass Field",
-   "url": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
-   "published_utc": "2026-11-16T09:07+00:00",
-   "summary": "<img src=\"https://res.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/en/headerimage/generatedHeaderImage-1794301940782.jpg\" /><p>AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential mode adds attestation-gated key release. The document"
-  },
-  {
-   "category": "swe",
-   "source": "InfoQ Development",
-   "title": "Uno Platform 7.0 Adds WebGPU Backend, Apple TV and Reactor Support, and Retires Native Rendering",
-   "url": "https://www.infoq.com/news/2026/11/Uno-Platform-6-7-targets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
-   "published_utc": "2026-11-16T09:00+00:00",
-   "summary": "<img src=\"https://res.infoq.com/news/2026/11/Uno-Platform-6-7-targets/en/headerimage/header-1794254225395.jpg\" /><p>Uno Platform 7.0 unifies rendering on SkiaSharp 4 with an opt-in WebGPU backend, adds Apple TV as a target and supports .NET 11 from day zero. It also runs third-party .NET MAUI controls and Microsoft.UI.Reactor on all targets, and removes native rendering and Mac Catalyst.</p> <i>By"
-  },
-  {
-   "category": "devops",
-   "source": "InfoQ DevOps",
-   "title": "Alpine Linux Users Urged to Patch OpenSSH Authentication Flaw",
-   "url": "https://www.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=DevOps",
-   "published_utc": "2026-11-16T09:00+00:00",
-   "summary": "<img src=\"https://res.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/en/headerimage/generatedHeaderImage-1794610199233.jpg\" /><p>A recently disclosed vulnerability in OpenSSH lets an unauthenticated attacker log into accounts that should have no usable password. The issue, named *sshole and tracked as CVE-2026-123158, affects Linux systems running OpenSSH with the musl C library and which don"
-  },
-  {
-   "category": "mgmt",
-   "source": "LeadDev",
-   "title": "Everyone’s a software engineer now",
-   "url": "https://leaddev.com/management/everyones-a-software-engineer-now?utm_source=leaddev&utm_medium=RSS",
-   "published_utc": "2026-11-16T08:25+00:00",
-   "summary": "<p>What happens when anyone can code?</p>\n<p>The post <a href=\"https://leaddev.com/management/everyones-a-software-engineer-now?utm_source=leaddev&#038;utm_medium=RSS\">Everyone’s a software engineer now</a> appeared first on <a href=\"https://leaddev.com\">LeadDev</a>.</p>"
-  },
-  {
-   "category": "iot",
-   "source": "CNX Software",
-   "title": "Up to 35% discount on KAMRUI AMD Ryzen and Intel Core mini PCs (Sponsored)",
-   "url": "https://www.cnx-software.com/2026/11/16/up-to-35-discount-on-kamrui-amd-ryzen-and-intel-core-mini-pcs/",
-   "published_utc": "2026-11-16T08:00+00:00",
-   "summary": "<div><img alt=\"KAMRUI E3B Mini PC\" class=\"attachment-medium size-medium wp-post-image\" height=\"675\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/11/KAMRUI-E3B-Mini-PC-720x675.jpg\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>KAMRUI is offering up to a 35% discount on three of its AMD Ryzen 5/7 and Intel Core mini PCs. Let&#8217;s check all three. KAMRUI E3B mini PC &#8211;  AM"
-  },
-  {
-   "category": "iot",
-   "source": "CNX Software",
-   "title": "AAEON BOXER-8741AI industrial Edge AI box PC NVIDIA Jetson Thor T5000 with dual 10GbE and four 5GbE LAN",
-   "url": "https://www.cnx-software.com/2026/11/16/aaeon-boxer-8741ai-industrial-edge-ai-box-pc-nvidia-jetson-thor-t5000-with-dual-10gbe-and-four-5gbe-lan/",
-   "published_utc": "2026-11-16T04:00+00:00",
-   "summary": "<div><img alt=\"AAEON BOXER 8741AI NVIDIA Jetson Thor edge AI computer\" class=\"attachment-medium size-medium wp-post-image\" height=\"480\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/11/AAEON-BOXER-8741AI-NVIDIA-Jetson-Thor-edge-AI-computer-720x480.jpg\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>AAEON BOXER-8741AI is an industrial edge AI box PC built around the NVIDIA Jetson "
   }
  ]
 }
