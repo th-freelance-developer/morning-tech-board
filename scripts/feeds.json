@@ -19,13 +19,32 @@
       "url": "https://www.cnx-software.com/feed/"
     },
     {
-      "name": "IoT World Today",
-      "url": "https://www.iotworldtoday.com/rss.xml",
-      "fallbacks": [
-        "https://www.iotworldtoday.com/rss.xml/",
-        "https://www.iotworldtoday.com/feed",
-        "https://www.iotworldtoday.com/rss"
-      ]
+      "name": "IoT Analytics",
+      "url": "https://iot-analytics.com/feed/"
+    },
+    {
+      "name": "IoT Business News",
+      "url": "https://iotbusinessnews.com/feed/"
+    },
+    {
+      "name": "IoT Tech News",
+      "url": "https://www.iottechnews.com/feed/"
+    },
+    {
+      "name": "IoT For All",
+      "url": "https://www.iotforall.com/feed"
+    },
+    {
+      "name": "IoT Insider",
+      "url": "https://www.iotinsider.com/feed/"
+    },
+    {
+      "name": "Embedded.com",
+      "url": "https://www.embedded.com/feed/"
+    },
+    {
+      "name": "RCR Wireless",
+      "url": "https://www.rcrwireless.com/feed"
     }
   ],
   "mgmt": [
