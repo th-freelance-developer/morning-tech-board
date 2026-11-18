@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T02:27:25+00:00",
+ "generated_utc": "2026-11-18T02:28:29+00:00",
  "window_hours": 48,
  "status": [
   {
@@ -16,9 +16,11 @@
    "category": "ai",
    "name": "Hacker News (AI, 100+ pts)",
    "url": "https://hnrss.org/newest?q=LLM+OR+AI+OR+agent&points=100",
-   "http": 502,
-   "ok": false,
-   "error": "<unknown>:7:2: mismatched tag"
+   "http": 200,
+   "ok": true,
+   "total": 20,
+   "kept": 2,
+   "undated": 0
   },
   {
    "category": "iot",
@@ -34,9 +36,8 @@
    "category": "iot",
    "name": "IoT World Today",
    "url": "https://www.iotworldtoday.com/rss.xml",
-   "http": 301,
    "ok": false,
-   "error": "<unknown>:174:89: not well-formed (invalid token)"
+   "error": "301 <unknown>:174:89: not well-formed (invalid token) | 301 <unknown>:174:89: not well-formed (invalid token) | 301 <unknown>:174:89: not well-formed (invalid token) | 301 <unknown>:174:89: not well-f"
   },
   {
    "category": "mgmt",
@@ -367,6 +368,14 @@
    "summary": "<p>Data intelligence is becoming the deciding layer of the enterprise AI factory as companies learn that racks of graphics processing units deliver little value when agents lack trusted, governed context. Neocloud providers built the first wave of large-scale AI systems, and core enterprise customers now want the same capabilities inside their own organizations. Dell Technologies [&#8230;]</p>\n<p>"
   },
   {
+   "category": "ai",
+   "source": "Hacker News (AI, 100+ pts)",
+   "title": "Not Everything Needs an LLM",
+   "url": "https://newsletter.posthog.com/p/decision-models",
+   "published_utc": "2026-11-17T18:16+00:00",
+   "summary": "<p>Article URL: <a href=\"https://newsletter.posthog.com/p/decision-models\">https://newsletter.posthog.com/p/decision-models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50535740\">https://news.ycombinator.com/item?id=50535740</a></p>\n<p>Points: 104</p>\n<p># Comments: 42</p>"
+  },
+  {
    "category": "infra",
    "source": "BleepingComputer",
    "title": "Tor releases emergency update amid ongoing DDoS attack",
@@ -597,6 +606,14 @@
    "url": "https://www.datacenterdynamics.com/en/news/google-inks-50mw-geothermal-ppa-with-quaise-in-oregon/",
    "published_utc": "2026-11-17T14:31+00:00",
    "summary": "<p>PPA to support Google's data centers in The Dalles</p>"
+  },
+  {
+   "category": "ai",
+   "source": "Hacker News (AI, 100+ pts)",
+   "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+   "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+   "published_utc": "2026-11-17T14:19+00:00",
+   "summary": "<p>Article URL: <a href=\"https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns\">https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50531751\">https://news.ycombinator.com/item?id=50531751</a></p>\n<p>Points: "
   },
   {
    "category": "infra",
