@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-18T02:28:29+00:00",
+ "generated_utc": "2026-11-18T02:31:51+00:00",
  "window_hours": 48,
  "status": [
   {
@@ -34,10 +34,67 @@
   },
   {
    "category": "iot",
-   "name": "IoT World Today",
-   "url": "https://www.iotworldtoday.com/rss.xml",
+   "name": "IoT Analytics",
+   "url": "https://iot-analytics.com/feed/",
+   "http": 200,
+   "ok": true,
+   "total": 10,
+   "kept": 0,
+   "undated": 0
+  },
+  {
+   "category": "iot",
+   "name": "IoT Business News",
+   "url": "https://iotbusinessnews.com/feed/",
+   "http": 200,
+   "ok": true,
+   "total": 25,
+   "kept": 0,
+   "undated": 0
+  },
+  {
+   "category": "iot",
+   "name": "IoT Tech News",
+   "url": "https://www.iottechnews.com/feed/",
    "ok": false,
-   "error": "301 <unknown>:174:89: not well-formed (invalid token) | 301 <unknown>:174:89: not well-formed (invalid token) | 301 <unknown>:174:89: not well-formed (invalid token) | 301 <unknown>:174:89: not well-f"
+   "error": "301 <unknown>:2:0: syntax error | 301 <unknown>:2:0: syntax error"
+  },
+  {
+   "category": "iot",
+   "name": "IoT For All",
+   "url": "https://www.iotforall.com/feed",
+   "ok": false,
+   "error": "404 text/html; charset=utf-8 is not an XML media type | 404 text/html; charset=utf-8 is not an XML media type"
+  },
+  {
+   "category": "iot",
+   "name": "IoT Insider",
+   "url": "https://www.iotinsider.com/feed/",
+   "http": 200,
+   "ok": true,
+   "total": 25,
+   "kept": 2,
+   "undated": 0
+  },
+  {
+   "category": "iot",
+   "name": "Embedded.com",
+   "url": "https://www.embedded.com/feed/",
+   "http": 200,
+   "ok": true,
+   "total": 10,
+   "kept": 1,
+   "undated": 0
+  },
+  {
+   "category": "iot",
+   "name": "RCR Wireless",
+   "url": "https://www.rcrwireless.com/feed",
+   "http": 301,
+   "ok": true,
+   "total": 10,
+   "kept": 10,
+   "undated": 0
   },
   {
    "category": "mgmt",
@@ -480,6 +537,22 @@
    "summary": "<p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my port of the <a href=\"https://datasette.io/\">Datasette</a> Python application to run directly in the browser using WebAssembly and <a href=\"https://pyodide.org/\">Pyodide</a>. I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application.</p>\n<p>You"
   },
   {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Rocket science – another Amazon launch snag (Telco Diary)",
+   "url": "https://rcrwireless.com/20261117/network-infrastructure/rocket-science-another-amazon-launch-snag-telco-diary",
+   "published_utc": "2026-11-17T16:43+00:00",
+   "summary": "From the newsletter (November 16; sign-up or follow if you want it sooner): ULA’s first launch failure in 20 years has destroyed 40 Amazon Leo satellites, dealing another blow to&#8230;"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "The private 5G case is good, says BASF – and better with AI",
+   "url": "https://rcrwireless.com/20261117/private-5g/private-5g-case-is-good-says-basf-and-better-with-ai",
+   "published_utc": "2026-11-17T16:33+00:00",
+   "summary": "BASF says AI is accelerating private 5G adoption, not justifying it – while its existing edge infrastructure makes AI-RAN a poor fit. Its experience challenges assumptions about what industrial AI&#8230;"
+  },
+  {
    "category": "devops",
    "source": "The New Stack",
    "title": "CoreWeave connects custom training loops to model serving",
@@ -510,6 +583,14 @@
    "url": "https://www.datacenterdynamics.com/en/news/millicom-agrees-to-buy-entel-peru-for-1714-million/",
    "published_utc": "2026-11-17T16:19+00:00",
    "summary": "<p>The acquisition will enable Millicom to enter the Peruvian market and expand its presence to 13 countries</p>"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Private 5G planning must go beyond coverage, iBwave says",
+   "url": "https://rcrwireless.com/20261117/private-5g/private-5g-ibwave",
+   "published_utc": "2026-11-17T16:17+00:00",
+   "summary": "Nazim Choudhury, market strategy director at iBwave, discussed the challenges of integrating private 5G with existing wireless infrastructure and the requirements of industrial environments during a session at the recent&#8230;"
   },
   {
    "category": "mgmt",
@@ -600,6 +681,14 @@
    "summary": "<p>Companies target sites across Finland, Estonia, Latvia, and Sweden</p>"
   },
   {
+   "category": "iot",
+   "source": "IoT Insider",
+   "title": "Thales and BR Captura examine how SGP.32 could reshape IoT connectivity in Latin America",
+   "url": "https://www.iotinsider.com/industries/communications/thales-and-br-captura-examine-how-sgp-32-could-reshape-iot-connectivity-in-latin-america/",
+   "published_utc": "2026-11-17T14:32+00:00",
+   "summary": "Thales and BR Captura have published a joint paper examining what the SGP.32 eSIM standard could mean for IoT connectivity in Brazil and wider Latin America, arguing that it could give businesses greater control over how connected devices access mobile networks throughout their operational lives. The paper explores how organisations could adapt connectivity as coverage,&#8230;"
+  },
+  {
    "category": "infra",
    "source": "Data Center Dynamics",
    "title": "Google inks 50MW geothermal PPA with Quaise in Oregon",
@@ -654,6 +743,14 @@
    "url": "https://siliconangle.com/2026/11/17/sima-ais-palette-3-0-runs-many-ai-models-on-one-chip-and-lifts-throughput-up-to-3-5-times/",
    "published_utc": "2026-11-17T14:00+00:00",
    "summary": "<p>Physical artificial intelligence chip startup SiMa Technologies Inc. today released Palette 3.0, a new version of its Palette software suite intended to allow many AI models to run concurrently on one chip. According to the company, the release, which builds on the Palette Neat agentic development environment launched in June, can raise model throughput by [&#8230;]</p>\n<p>The post <a href=\"htt"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Who’s left? The MDU Wi-Fi vendor landscape after Cambium (Analyst Angle)",
+   "url": "https://rcrwireless.com/20261117/analyst-angle/whos-left-the-mdu-wi-fi-vendor-landscape-after-cambium-analyst-angle",
+   "published_utc": "2026-11-17T13:47+00:00",
+   "summary": "Following Cambium Networks’ collapse, US multifamily Wi-Fi providers are reassessing their vendors as RUCKUS loses ground, TP-Link faces regulatory scrutiny and Cambium changes hands. Maravedis maps the contenders, risks and&#8230;"
   },
   {
    "category": "infra",
@@ -726,6 +823,22 @@
    "url": "https://www.infoq.com/presentations/scale-llm-ranking-systems-linkedin/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Development",
    "published_utc": "2026-11-17T11:00+00:00",
    "summary": "<img src=\"https://res.infoq.com/presentations/scale-llm-ranking-systems-linkedin/en/mediumimage/SundaraRamanRamachandran-medium-1793279019345.jpeg\" /><p>Sundara Raman Ramachandran shares how LinkedIn productionizes LLM ranking under strict P99 latency SLAs. He discusses distilling a 7B model down to 400M parameters, compressing job contexts into single-token embeddings for a 10x throughput leap, a"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Wi-Fi Forum 2027",
+   "url": "https://www.rcrwififorum.com/page/7040432/register-now",
+   "published_utc": "2026-11-17T10:49+00:00",
+   "summary": "Wi-Fi has evolved far beyond its traditional role as a wireless access technology. As enterprises modernize, AI workloads proliferate, and operators pursue converged connectivity strategies, Wi-Fi is increasingly becoming a&#8230;"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Connecting intelligence: the optical backbone of AI",
+   "url": "https://rcrwireless.com/20261117/ai-infrastructure/optical-backbone-of-ai-nokia",
+   "published_utc": "2026-11-17T10:26+00:00",
+   "summary": "AI infrastructure investment is expanding in two directions simultaneously: scaling massive compute clusters for model training, while increasing distributed capacity to support the rapidly growing demands of inference. Even as&#8230;"
   },
   {
    "category": "swe",
@@ -864,6 +977,14 @@
    "summary": "<p>Noeri Inc., a startup developing artificial intelligence systems that continuously improve their outputs as they learn from an organization’s data and work, is launching with $110 million in funding. Today’s round was led by Menlo Ventures and saw participation from Seattle-based Madrona Ventures, Kindred Ventures, Wing Venture Capital and NEA. Snowflake and Cisco Ventures also [&#8230;]</p>\n<p"
   },
   {
+   "category": "iot",
+   "source": "Embedded.com",
+   "title": "Mikroe Adds FreeRTOS Support to NECTO Studio IDE",
+   "url": "https://www.embedded.com/mikroe-adds-freertos-support-to-necto-studio-ide/",
+   "published_utc": "2026-11-16T23:08+00:00",
+   "summary": "<p>Mikroe has released NECTO Studio 7.5.2, the latest version of its multi-architecture, multi-language integrated development environment (IDE), adding code generation support for FreeRTOS, the open-source real-time operating system widely used in embedded devices. The integration simplifies project creation and helps developers get started with real-time applications across a broad range of micr"
+  },
+  {
    "category": "infra",
    "source": "BleepingComputer",
    "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
@@ -920,6 +1041,30 @@
    "summary": "<img alt=\"Alibaba Xixi Campus in Hangzhou, Zhejiang, China.\" class=\"webfeedsFeaturedVisual wp-post-image wp-stateless-item\" height=\"683\" src=\"https://cdn.thenewstack.io/media/2026/11/63d83074-zonghe-ma-3xzz4akzbau-unsplash-1-1024x683.jpg\" style=\"display: block; margin: auto; margin-bottom: 20px;\" width=\"1024\" /><p>Alibaba has officially unveiled Qwen4-Max, the first model in its next-generation Qw"
   },
   {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Rakuten Mobile narrows Q3 loss as network investment accelerates",
+   "url": "https://rcrwireless.com/20261116/carriers/rakuten-mobile-network",
+   "published_utc": "2026-11-16T15:41+00:00",
+   "summary": "Rakuten&#8217;s chief executive officer Hiroshi Mikitani said the company would continue its investment policy while balancing growth and profitability and also cited the planned introduction of 5G SA as a&#8230;"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Poste confirms $774m in TIM synergies, details integration plan",
+   "url": "https://rcrwireless.com/20261116/carriers/poste-tim-integration",
+   "published_utc": "2026-11-16T15:40+00:00",
+   "summary": "Poste Italiane has established an integration structure comprising a steering committee, an integration office and nine work streams overseeing 27 sub-work streams In sum – what to know Synergies confirmed&#8230;"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "ISAC on the 5G frontline, 6G frontier – telcos target defense networks",
+   "url": "https://rcrwireless.com/20261116/network-infrastructure/isac-on-the-5g-frontline-6g-frontier-telcos-target-defense-networks",
+   "published_utc": "2026-11-16T15:39+00:00",
+   "summary": "Nokia is testing ISAC for US military drone detection, while Elisa and Telefónica are putting public and private 5G to work in European defence projects – and Ericsson has a&#8230;"
+  },
+  {
    "category": "swe",
    "source": "InfoQ Development",
    "title": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
@@ -936,6 +1081,14 @@
    "summary": "<img src=\"https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg\" /><p>Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring ag"
   },
   {
+   "category": "iot",
+   "source": "IoT Insider",
+   "title": "Electronica 2026: NXP targets robotics integration bottleneck with unified physical AI platform",
+   "url": "https://www.iotinsider.com/events/electronica-2026-nxp-targets-robotics-integration-bottleneck-with-unified-physical-ai-platform/",
+   "published_utc": "2026-11-16T13:36+00:00",
+   "summary": "NXP Semiconductors is seeking to reduce the time and complexity involved in developing autonomous robots with a new hardware and software platform that brings together artificial intelligence, motor control, connectivity and security. The Dutch semiconductor group unveiled its unified robotics platform at electronica 2026, positioning it as a way for developers to move from evaluating&#8230;"
+  },
+  {
    "category": "mgmt",
    "source": "The Pragmatic Engineer",
    "title": "Software engineering after code becomes cheap with Satya Nadella",
@@ -950,6 +1103,14 @@
    "url": "https://www.cnx-software.com/2026/11/16/geekom-a5-2027-edition-review-part-2-a-mid-range-amd-ryzen-7-7730u-mini-pc-tested-with-windows-11-pro/",
    "published_utc": "2026-11-16T12:00+00:00",
    "summary": "<div><img alt=\"GEEKOM A5 2027 Edition Mini PC review windows\" class=\"attachment-medium size-medium wp-post-image\" height=\"485\" src=\"https://www.cnx-software.com/wp-content/uploads/2026/11/GEEKOM-A5-2027-Edition-Mini-PC-review-windows-720x485.webp\" style=\"margin-bottom: 10px;\" width=\"720\" /></div>\n<p>We&#8217;ve checked out the GEEKOM A5 2027 Edition mini PC&#8217;s hardware with an unboxing and te"
+  },
+  {
+   "category": "iot",
+   "source": "RCR Wireless",
+   "title": "Roll agents out like patches – in stages and with a way back (Reader Forum)",
+   "url": "https://rcrwireless.com/20261116/reader-forum/roll-agents-out-like-patches-reader-forum",
+   "published_utc": "2026-11-16T11:53+00:00",
+   "summary": "Rogue AI agents could expose enterprise networks to security breaches, compliance failures and uncontrolled changes as autonomy increases. Hexnode’s Apu Pavithran argues that businesses should manage agent rollouts like software&#8230;"
   },
   {
    "category": "mgmt",
